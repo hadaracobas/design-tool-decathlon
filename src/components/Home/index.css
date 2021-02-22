@@ -1,0 +1,15 @@
+.home {
+  /*border: 1px solid red;*/
+}
+
+.home__imgContainer {
+  /* border: 1px solid green;*/
+  width: 50%;
+  margin: 260px auto 0 auto;
+  text-align: center;
+}
+
+.home__imgContainer img {
+  width: 60%;
+  height: auto;
+}
