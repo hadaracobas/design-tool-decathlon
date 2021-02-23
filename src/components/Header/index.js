@@ -73,6 +73,8 @@ import MailIcon from "@material-ui/icons/Mail";
 import SportsHandballIcon from "@material-ui/icons/SportsHandball";
 import ImportantDevicesIcon from "@material-ui/icons/ImportantDevices";
 
+import { Link } from "react-router-dom";
+
 const drawerWidth = 240;
 
 const useStyles = makeStyles((theme) => ({
@@ -190,7 +192,7 @@ export default function Header() {
           </div>
           <Divider />
           <List>
-            {["Home Page", "Sport Page"].map((text, index) => (
+            {/*["Home Page", "Sport Page"].map((text, index) => (
               <ListItem button key={text}>
                 <ListItemIcon>
                   {index === 0 ? (
@@ -201,7 +203,32 @@ export default function Header() {
                 </ListItemIcon>
                 <ListItemText primary={text} />
               </ListItem>
-            ))}
+                  ))*/}
+            <Link
+              to="/hp-components"
+              style={{ textDecoration: "none", color: "#000000DE" }}
+              onClick={handleDrawerClose}
+            >
+              <ListItem button>
+                <ListItemIcon>
+                  <ImportantDevicesIcon />
+                </ListItemIcon>
+                <ListItemText primary="Home Page" />
+              </ListItem>
+            </Link>
+
+            <Link
+              to="/sport-lp-components"
+              style={{ textDecoration: "none", color: "#000000DE" }}
+              onClick={handleDrawerClose}
+            >
+              <ListItem button>
+                <ListItemIcon>
+                  <SportsHandballIcon />
+                </ListItemIcon>
+                <ListItemText primary="Sport LP" />
+              </ListItem>
+            </Link>
           </List>
           <Divider />
         </Drawer>

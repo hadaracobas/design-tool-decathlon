@@ -2,14 +2,12 @@
   /*border: 1px solid red;*/
 }
 
-.home__imgContainer {
-  /* border: 1px solid green;*/
-  width: 50%;
-  margin: 260px auto 0 auto;
+.home__img-container {
   text-align: center;
+  margin-top: 134px;
 }
 
-.home__imgContainer img {
-  width: 60%;
+.home__img-container img {
+  width: 44%;
   height: auto;
 }

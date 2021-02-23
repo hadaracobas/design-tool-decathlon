@@ -33,18 +33,19 @@ export default function ImgMediaCard(props) {
             {props.componentTitle}
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
-            Lizards are a widespread group of squamate reptiles, with over 6,000
-            species, ranging across all continents except Antarctica
+            {props.text}
           </Typography>
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button size="small" color="primary">
-          Share
+        <Button size="small" color="primary" onClick={props.onClick}>
+          use component
         </Button>
+        {/*
         <Button size="small" color="primary">
           Learn More
         </Button>
+        */}
       </CardActions>
     </Card>
   );
