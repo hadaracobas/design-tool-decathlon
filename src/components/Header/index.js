@@ -168,7 +168,9 @@ export default function Header() {
               <MenuIcon />
             </IconButton>
             <Typography variant="h6" noWrap>
-              Decathlon Dev {"&"} Design
+              <Link style={{ color: "#fff", textDecoration: "none" }} to="/">
+                Decathlon Dev {"&"} Design
+              </Link>
             </Typography>
           </Toolbar>
         </AppBar>

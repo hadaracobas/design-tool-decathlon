@@ -1,44 +1,31 @@
-import React from "react";
+import React, { useState } from "react";
 import ImgMediaCard from "../ImgMediaCard";
 import "./index.css";
 
+import screenshotHpTopBannerDesktop from "../../img/hp-banner-desktop-screenshot.png";
+import screenshotHpTopBannerMobile from "../../img/hp-banner-desktop-screenshot.png";
+
+import PopupHpMainBanner from "../../hpPopupComponents/PopupHpMainBanner";
+
 const HpComponentsPage = () => {
+  const [open2HpBannerComponent, setOpen2HpBannerComponent] = useState(false);
   return (
     <div className="hpComponentsPage">
       <h2 className="title"> Home Page Components</h2>
       <div className="cards">
         <div className="card">
           <ImgMediaCard
-            imageUrl="https://images.pexels.com/photos/221457/pexels-photo-221457.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-            componentTitle="HP Top Banner"
-          />
-        </div>
-        <div className="card">
-          <ImgMediaCard
-            imageUrl="https://images.pexels.com/photos/835240/pexels-photo-835240.jpeg?cs=srgb&dl=pexels-sarah-schorer-835240.jpg&fm=jpg"
-            componentTitle="Kategories"
-          />
-        </div>
-        <div className="card">
-          <ImgMediaCard
-            imageUrl="https://images.pexels.com/photos/261045/pexels-photo-261045.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-            componentTitle="Artikle"
-          />
-        </div>
-
-        <div className="card">
-          <ImgMediaCard
-            imageUrl="https://images.pexels.com/photos/1006321/pexels-photo-1006321.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-            componentTitle="Unsere Filialen"
-          />
-        </div>
-        <div className="card">
-          <ImgMediaCard
-            imageUrl="https://images.pexels.com/photos/1006321/pexels-photo-1006321.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-            componentTitle="Unsere Filialen"
+            imageUrl={screenshotHpTopBannerDesktop}
+            componentTitle="HP Main Banner (Desktop + Mobile)"
+            onClick={() => setOpen2HpBannerComponent(true)}
           />
         </div>
       </div>
+      <PopupHpMainBanner
+        imgUrl={screenshotHpTopBannerDesktop}
+        open={open2HpBannerComponent}
+        handleClose={() => setOpen2HpBannerComponent(false)}
+      />
     </div>
   );
 };
