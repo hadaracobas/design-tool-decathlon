@@ -122,7 +122,7 @@ export default function Popup2Categories(props) {
   </style>
   <div class="two-categories">
     <div class="title-container">
-      <h3>${sectionTitleInput}</h3>
+      <h2>${sectionTitleInput}</h2>
       ${
         displayCtaBtn === "yes"
           ? ` <a href="${btnCtaUrl}" class="title-container__cta">${btnCtaText}</a>`

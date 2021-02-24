@@ -141,7 +141,7 @@ export default function Popup3Categories(props) {
     </style>
     <div class="three-categories">
       <div class="title-container">
-        <h3>${sectionTitleInput}</h3>
+        <h2>${sectionTitleInput}</h2>
         ${
           displayCtaBtn === "yes"
             ? ` <a href="${btnCtaUrl}" class="title-container__cta">${btnCtaText}</a>`
