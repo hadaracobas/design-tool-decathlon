@@ -103,7 +103,7 @@ export default function Popup2Categories(props) {
     <!-- ***************** START DISPLAY 2 CATEGORIES ***************** -->
     <link
     rel="stylesheet"
-    href="https://www.decathlon.at/ecat/static/sport-lp-css/categories-css/style.css"
+    href="https://www.decathlon.at/ecat/static/sport-lp-css-v1/categories-css/style.css"
   />
   
   <style>

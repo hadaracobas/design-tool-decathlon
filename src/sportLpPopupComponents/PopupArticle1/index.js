@@ -88,7 +88,7 @@ export default function PopupArticle1(props) {
     <div style="margin: 7px 0">&nbsp;</div>
     <link
       rel="stylesheet"
-      href="https://www.decathlon.at/ecat/static/sport-lp-css/articles-css/style.css"
+      href="https://www.decathlon.at/ecat/static/sport-lp-css-v1/articles-css/style.css"
     />
     <style>
       .article1 .article1__imgContainer {

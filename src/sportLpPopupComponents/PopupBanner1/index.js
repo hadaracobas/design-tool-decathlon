@@ -83,7 +83,7 @@ export default function PopupBanner1(props) {
     <div style="margin: 15px 0">&nbsp;</div>
     <link
       rel="stylesheet"
-      href="https://www.decathlon.at/ecat/static/sport-lp-css/banners-css/style.css"
+      href="https://www.decathlon.at/ecat/static/sport-lp-css-v1/banners-css/style.css"
     />
     <style>
       .banner1 .banner1__right-side {

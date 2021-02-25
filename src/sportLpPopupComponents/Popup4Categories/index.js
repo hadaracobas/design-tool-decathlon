@@ -129,7 +129,7 @@ export default function Popup4Categories(props) {
     <!-- ***************** START DISPLAY 4 CATEGORIES ***************** -->
     <link
       rel="stylesheet"
-      href="https://www.decathlon.at/ecat/static/sport-lp-css/categories-css/style.css"
+      href="https://www.decathlon.at/ecat/static/sport-lp-css-v1/categories-css/style.css"
     />
     <style>
       .four-categories .first-category {
