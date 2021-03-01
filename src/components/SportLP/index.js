@@ -7,6 +7,7 @@ import screenshotThreeCategories from "../../img/three-categories-screenshot.png
 import screenshotFourCategories from "../../img/four-categories-screenshot.png";
 import screenshotBanner1 from "../../img/banner1-screenshot.png";
 import screenshotArticle1 from "../../img/article1-screenshot.png";
+import screenshotProductsSlider1 from "../../img/products-slider1-screenshot.png";
 
 import "./index.css";
 import PopupModalUseComponent from "../PopupModalUseComponent";
@@ -15,6 +16,7 @@ import Popup3Categories from "../../sportLpPopupComponents/Popup3Categories";
 import Popup4Categories from "../../sportLpPopupComponents/Popup4Categories";
 import PopupBanner1 from "../../sportLpPopupComponents/PopupBanner1";
 import PopupArticle1 from "../../sportLpPopupComponents/PopupArticle1";
+import PopupProductsSlider1 from "../../sportLpPopupComponents/PopupProductsSlider1";
 
 const SportLP = () => {
   const [open2CategoriesComponent, setOpen2CategoriesComponent] = useState(
@@ -32,6 +34,11 @@ const SportLP = () => {
   const [openBanner1Component, setOpenBanner1Component] = useState(false);
 
   const [openArticle1Component, setOpenArticle1Component] = useState(false);
+
+  const [
+    openProductsSlider1Component,
+    setOpenProductsSlider1Component,
+  ] = useState(false);
 
   return (
     <div className="sprortLP">
@@ -72,6 +79,13 @@ const SportLP = () => {
             onClick={() => setOpenArticle1Component(true)}
           />
         </div>
+        <div className="card">
+          <ImgMediaCard
+            imageUrl={screenshotProductsSlider1}
+            componentTitle="Display Products Slider"
+            onClick={() => setOpenProductsSlider1Component(true)}
+          />
+        </div>
       </div>
       {/*
        <PopupModalUseComponent
@@ -106,6 +120,12 @@ const SportLP = () => {
         imgUrl={screenshotArticle1}
         open={openArticle1Component}
         handleClose={() => setOpenArticle1Component(false)}
+      />
+
+      <PopupProductsSlider1
+        imgUrl={screenshotProductsSlider1}
+        open={openProductsSlider1Component}
+        handleClose={() => setOpenProductsSlider1Component(false)}
       />
     </div>
   );
