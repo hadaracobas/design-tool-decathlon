@@ -456,6 +456,7 @@ export default function PopupProductsSlider1(props) {
     <style>
       .products-slider1__display-category {
         background-image: url("${slider1CategoryColumnImageSrc}");
+        background-position: center;
       }
 
     </style>
