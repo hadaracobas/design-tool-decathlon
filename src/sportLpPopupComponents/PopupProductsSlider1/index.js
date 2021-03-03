@@ -459,6 +459,12 @@ export default function PopupProductsSlider1(props) {
         background-position: center;
       }
 
+      .products-slider1__priceContainer {
+        position: absolute;
+        top: 26px !important;
+        right: 20px;
+    }
+
     </style>
     <div class="products-slider1">
       <div class="products-slider1__titleContainer">
