@@ -95,6 +95,10 @@ export default function PopupArticle1(props) {
         background-image: url("${article1ImgUrl}") !important;
         background-position: center;
       }
+      .article1 .article1__content--categoryName {
+        padding: 8px 32px;
+    }
+
     </style>
     <div class="article1">
       <div class="article1__imgContainer"></div>
