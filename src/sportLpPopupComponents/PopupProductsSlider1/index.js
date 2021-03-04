@@ -51,32 +51,11 @@ export default function PopupProductsSlider1(props) {
 
   //  get input states and on change func
 
-  const [banner1ImgUrl, setBanner1ImgUrl] = useState("");
-  const banner1ImgUrlHandleOnChange = (e) => {
-    setBanner1ImgUrl(e.target.value);
+  const [sliderId, setSliderId] = useState("");
+  const sliderIdHandleOnChange = (e) => {
+    setSliderId(e.target.value);
   };
 
-  const [banner1FirstTitle, setBanner1FirstTitle] = useState("");
-  const banner1FirstTitleHandleOnChange = (e) => {
-    setBanner1FirstTitle(e.target.value);
-  };
-
-  const [banner1SecondBoldTitle, setBanner1SecondBoldTitle] = useState("");
-  const banner1SecondBoldTitleHandleOnChange = (e) => {
-    setBanner1SecondBoldTitle(e.target.value);
-  };
-
-  const [banner1CtaBtnText, setBanner1CtaBtnText] = useState("");
-  const banner1CtaBtnTextHandleOnChange = (e) => {
-    setBanner1CtaBtnText(e.target.value);
-  };
-
-  const [banner1CtaBtnLinkUrl, setBanner1CtaBtnLinkUrl] = useState("");
-  const banner1CtaBtnLinkUrlHandleOnChange = (e) => {
-    setBanner1CtaBtnLinkUrl(e.target.value);
-  };
-
-  // -------------------------------------------
   // section title
   const [slider1Title, setSlider1Title] = useState("");
   const slider1TitleHandleOnChange = (e) => {
@@ -454,8 +433,8 @@ export default function PopupProductsSlider1(props) {
     />
 
     <style>
-      .products-slider1__display-category {
-        background-image: url("${slider1CategoryColumnImageSrc}");
+      .products-slider1__display-category${sliderId} {
+        background-image: url("${slider1CategoryColumnImageSrc}") !important;
         background-position: center;
       }
 
@@ -477,7 +456,7 @@ export default function PopupProductsSlider1(props) {
         <h2>${slider1Title}</h2>
       </div>
       <!-- Swiper -->
-      <div class="swiper-container products-slider1__swiper-container">
+      <div class="swiper-container products-slider1__swiper-container products-slider1__swiper-container${sliderId}">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
           ${
@@ -613,7 +592,7 @@ export default function PopupProductsSlider1(props) {
             </div>
           </div>
           <div class="swiper-slide">
-            <div class="products-slider1__display-category">
+            <div class="products-slider1__display-category products-slider1__display-category${sliderId}">
               <a href="${slider1CategoryColumnBtnLinkUrl}" class="products-slider1__display-category-btn">
                 <p>
                   <span> ${slider1CategoryColumnBtnText} </span>
@@ -758,10 +737,10 @@ export default function PopupProductsSlider1(props) {
         </div>
       </div>
 
-      <div class="products-slider1__arrow products-slider1__arrow--left">
+      <div class="products-slider1__arrow products-slider1__arrow--left products-slider1__arrow--left${sliderId}">
         <i class="fas fa-chevron-circle-left"></i>
       </div>
-      <div class="products-slider1__arrow products-slider1__arrow--right">
+      <div class="products-slider1__arrow products-slider1__arrow--right products-slider1__arrow--right${sliderId}">
         <i class="fas fa-chevron-circle-right"></i>
       </div>
 
@@ -777,10 +756,10 @@ export default function PopupProductsSlider1(props) {
 
     <!-- Initialize Swiper -->
     <script>
-      var swiper = new Swiper(".products-slider1__swiper-container", {
+      var swiper = new Swiper(".products-slider1__swiper-container${sliderId}", {
         navigation: {
-          nextEl: ".products-slider1__arrow--right",
-          prevEl: ".products-slider1__arrow--left",
+          nextEl: ".products-slider1__arrow--right${sliderId}",
+          prevEl: ".products-slider1__arrow--left${sliderId}",
         },
 
         breakpoints: {
@@ -836,6 +815,24 @@ export default function PopupProductsSlider1(props) {
             <h2 id="transition-modal-title">{props.title}</h2>
             <p id="transition-modal-description">{props.text}</p>
             <div className="popupInputsContainer">
+              <div className="popupInputsContainer__sectionWrapper">
+                <p className="popupInputsContainer__titleOfInputsGroup">
+                  Slider Id Number:
+                </p>
+                <small>
+                  Please give a slider id number (this number should be unique
+                  only for this slider in order to differentiate from the other
+                  sliders on the page)
+                </small>
+                <div className="popupInputsContainer__wrapper">
+                  <TextField
+                    id="standard-basic"
+                    label="slider id number"
+                    style={{ width: "80%" }}
+                    onChange={sliderIdHandleOnChange}
+                  />
+                </div>
+              </div>
               <div className="popupInputsContainer__sectionWrapper">
                 <p className="popupInputsContainer__titleOfInputsGroup">
                   Header Component:
