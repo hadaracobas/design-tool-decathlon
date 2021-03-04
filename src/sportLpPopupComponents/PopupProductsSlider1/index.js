@@ -465,6 +465,12 @@ export default function PopupProductsSlider1(props) {
         right: 20px;
     }
 
+    @media (min-width: 1200px) {
+      .products-slider1__titleContainer h2 {
+        margin-left: 86px;
+      }
+    }
+
     </style>
     <div class="products-slider1">
       <div class="products-slider1__titleContainer">
