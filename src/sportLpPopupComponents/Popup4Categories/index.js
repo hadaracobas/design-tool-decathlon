@@ -129,7 +129,7 @@ export default function Popup4Categories(props) {
     <!-- ***************** START DISPLAY 4 CATEGORIES ***************** -->
     <link
       rel="stylesheet"
-      href="https://www.decathlon.at/ecat/static/sport-lp-css-v1/categories-css/style.css"
+      href="https://www.decathlon.at/ecat/static/sport-lp-css-v2/categories-css/style.css"
     />
     <style>
       .four-categories .first-category {
@@ -160,15 +160,9 @@ export default function Popup4Categories(props) {
         background-size: cover !important;
       }
     </style>
+    <h2 class="sportLp__section-title">${sectionTitleInput}</h2>
     <div class="four-categories">
-      <div class="title-container">
-        <h2>${sectionTitleInput}</h2>
-        ${
-          displayCtaBtn === "yes"
-            ? ` <a href="${btnCtaUrl}" class="title-container__cta">${btnCtaText}</a>`
-            : ' <!--<a href="#" class="title-container__cta">Alle Produkte</a>--> '
-        }
-      </div>
+      
       <div class="categories-container">
         <a href="${category1ImgLinkUrl}">
           <div class="category first-category">
@@ -202,6 +196,7 @@ export default function Popup4Categories(props) {
       </div>
       <!-- end .categories-container -->
     </div>
+    <div style="margin: 12px 0">&nbsp;</div>
     <!-- ***************** END DISPLAY 4 CATEGORIES ***************** -->
     `);
   };
@@ -248,7 +243,8 @@ export default function Popup4Categories(props) {
                     onChange={sectionTitleHandleOnChange}
                   />
                 </div>
-                <div className="popupInputsContainer__wrapper">
+                {/*
+                   <div className="popupInputsContainer__wrapper">
                   <FormControl component="fieldset">
                     <FormLabel component="legend">
                       Do you want to display cta button?
@@ -293,6 +289,7 @@ export default function Popup4Categories(props) {
                     </div>
                   </div>
                 ) : null}
+                */}
               </div>
               <div className="popupInputsContainer__sectionWrapper">
                 <p className="popupInputsContainer__titleOfInputsGroup">

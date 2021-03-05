@@ -429,7 +429,7 @@ export default function PopupProductsSlider1(props) {
 
     <link
       rel="stylesheet"
-      href="https://www.decathlon.at/ecat/static/sport-lp-css-v1/products-sliders-css/style.css"
+      href="https://www.decathlon.at/ecat/static/sport-lp-css-v2/products-sliders-css/style.css"
     />
 
     <style>
@@ -445,22 +445,19 @@ export default function PopupProductsSlider1(props) {
     }
 
     @media (min-width: 1200px) {
-      .products-slider1__titleContainer h2 {
-        margin-left: 83px;
-      }
-      .products-slider1 {
-        padding-bottom: 0 !important;
-              }
       .products-slider1__arrow {
-          top: 53% !important;
+          top: 46% !important;
       }
     }
 
     </style>
+    <h2 class="sportLp__section-title">${slider1Title}</h2>
     <div class="products-slider1">
+    <!--
       <div class="products-slider1__titleContainer">
         <h2>${slider1Title}</h2>
       </div>
+      -->
       <!-- Swiper -->
       <div class="swiper-container products-slider1__swiper-container products-slider1__swiper-container${sliderId}">
         <div class="swiper-wrapper">
@@ -786,7 +783,7 @@ export default function PopupProductsSlider1(props) {
         loop: true,
       });
     </script>
-
+    <div style="margin: 12px 0">&nbsp;</div>
     <!-- ***************** END DISPLAY PRODUCTS SLIDER1 ***************** -->
     `);
   };

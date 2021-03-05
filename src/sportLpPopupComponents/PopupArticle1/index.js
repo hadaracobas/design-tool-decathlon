@@ -85,7 +85,7 @@ export default function PopupArticle1(props) {
     setGenerateCode(true);
     setCodeOfComponent(`
     <!-- ***************** START DISPLAY ARTICLE1 ***************** -->
-    <div style="margin: 7px 0">&nbsp;</div>
+    
     <link
       rel="stylesheet"
       href="https://www.decathlon.at/ecat/static/sport-lp-css-v1/articles-css/style.css"
@@ -113,7 +113,7 @@ export default function PopupArticle1(props) {
         <a href="${article1BtnLinkUrl}" class="article1__content--cta">${article1BtnText}</a>
       </div>
     </div>
-    <div style="margin: 7px 0">&nbsp;</div>
+    <div style="margin: 12px 0">&nbsp;</div>
     <!-- ***************** END DISPLAY ARTICLE1 ***************** -->
     `);
   };
