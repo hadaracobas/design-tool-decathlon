@@ -53,6 +53,12 @@ export default function Popup3Categories(props) {
   };
 
   //  get input states and on change func
+
+  const [categorySectionIdNumber, setCategorySectionIdNumber] = useState("");
+  const categorySectionIdNumberHandleOnChange = (e) => {
+    setCategorySectionIdNumber(e.target.value);
+  };
+
   const [sectionTitleInput, setSectionTitleInput] = useState("");
   const sectionTitleHandleOnChange = (e) => {
     setSectionTitleInput(e.target.value);
@@ -119,20 +125,20 @@ export default function Popup3Categories(props) {
       href="https://www.decathlon.at/ecat/static/sport-lp-css-v2/categories-css/style.css"
     />
     <style>
-      .three-categories .first-category {
+      .three-categories .first-category${categorySectionIdNumber} {
         background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1)),
           url("${category1ImgUrl}") !important;
         background-size: cover !important;
         background-position: center !important;
       }
-      .three-categories .second-category {
+      .three-categories .second-category${categorySectionIdNumber} {
         background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1)),
           url("${category2ImgUrl}") !important;
         background-size: cover !important;
         background-position: center !important;
       }
 
-      .three-categories .third-category {
+      .three-categories .third-category${categorySectionIdNumber} {
         background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1)),
           url("${category3ImgUrl}") !important;
         background-size: cover !important;
@@ -144,21 +150,21 @@ export default function Popup3Categories(props) {
 
       <div class="categories-container">
         <a href="${category1ImgLinkUrl}">
-          <div class="category first-category">
+          <div class="category first-category first-category${categorySectionIdNumber}">
             <div class="category-content">
               <p class="category__title">${category1NameLabel}</p>
             </div>
           </div>
         </a>
         <a href="${category2ImgLinkUrl}">
-          <div class="category second-category">
+          <div class="category second-category second-category${categorySectionIdNumber}">
             <div class="category-content">
               <p class="category__title">${category2NameLabel}</p>
             </div>
           </div>
         </a>
         <a href="${category3ImgLinkUrl}">
-          <div class="category third-category">
+          <div class="category third-category third-category${categorySectionIdNumber}">
             <div class="category-content">
               <p class="category__title">${category3NameLabel}</p>
             </div>
@@ -202,6 +208,24 @@ export default function Popup3Categories(props) {
             <h2 id="transition-modal-title">{props.title}</h2>
             <p id="transition-modal-description">{props.text}</p>
             <div className="popupInputsContainer">
+              <div className="popupInputsContainer__sectionWrapper">
+                <p className="popupInputsContainer__titleOfInputsGroup">
+                  section id number:
+                </p>
+                <small>
+                  Please give a section id number (this number should be unique
+                  only for this section in order to differentiate from the other
+                  sections on the page)
+                </small>
+                <div className="popupInputsContainer__wrapper">
+                  <TextField
+                    id="standard-basic"
+                    label="add section id number"
+                    style={{ width: "80%" }}
+                    onChange={categorySectionIdNumberHandleOnChange}
+                  />
+                </div>
+              </div>
               <div className="popupInputsContainer__sectionWrapper">
                 <p className="popupInputsContainer__titleOfInputsGroup">
                   header of component:

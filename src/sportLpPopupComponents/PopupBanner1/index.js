@@ -47,6 +47,11 @@ export default function PopupBanner1(props) {
 
   //  get input states and on change func
 
+  const [categorySectionIdNumber, setCategorySectionIdNumber] = useState("");
+  const categorySectionIdNumberHandleOnChange = (e) => {
+    setCategorySectionIdNumber(e.target.value);
+  };
+
   const [banner1ImgUrl, setBanner1ImgUrl] = useState("");
   const banner1ImgUrlHandleOnChange = (e) => {
     setBanner1ImgUrl(e.target.value);
@@ -86,7 +91,7 @@ export default function PopupBanner1(props) {
       href="https://www.decathlon.at/ecat/static/sport-lp-css-v1/banners-css/style.css"
     />
     <style>
-      .banner1 .banner1__right-side {
+      .banner1 .banner1__right-side${categorySectionIdNumber} {
         background-image: url("${banner1ImgUrl}") !important;
         background-position: center;
       }
@@ -103,7 +108,7 @@ export default function PopupBanner1(props) {
           <a href="${banner1CtaBtnLinkUrl}" class="banner1__left-side--cta">${banner1CtaBtnText}</a>
         </div>
       </div>
-      <div class="banner1__right-side"></div>
+      <div class="banner1__right-side banner1__right-side${categorySectionIdNumber}"></div>
     </div>
     <div style="margin: 15px 0">&nbsp;</div>
     <!-- ***************** END DISPLAY BANNER1 ***************** -->
@@ -140,6 +145,24 @@ export default function PopupBanner1(props) {
             <h2 id="transition-modal-title">{props.title}</h2>
             <p id="transition-modal-description">{props.text}</p>
             <div className="popupInputsContainer">
+              <div className="popupInputsContainer__sectionWrapper">
+                <p className="popupInputsContainer__titleOfInputsGroup">
+                  section id number:
+                </p>
+                <small>
+                  Please give a section id number (this number should be unique
+                  only for this section in order to differentiate from the other
+                  sections on the page)
+                </small>
+                <div className="popupInputsContainer__wrapper">
+                  <TextField
+                    id="standard-basic"
+                    label="add section id number"
+                    style={{ width: "80%" }}
+                    onChange={categorySectionIdNumberHandleOnChange}
+                  />
+                </div>
+              </div>
               <div className="popupInputsContainer__sectionWrapper">
                 <p className="popupInputsContainer__titleOfInputsGroup">
                   banner 1:
