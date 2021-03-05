@@ -448,6 +448,12 @@ export default function PopupProductsSlider1(props) {
       .products-slider1__titleContainer h2 {
         margin-left: 83px;
       }
+      .products-slider1 {
+        padding-bottom: 0 !important;
+              }
+      .products-slider1__arrow {
+          top: 53% !important;
+      }
     }
 
     </style>
