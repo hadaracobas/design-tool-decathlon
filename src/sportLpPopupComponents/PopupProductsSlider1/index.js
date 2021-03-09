@@ -422,10 +422,7 @@ export default function PopupProductsSlider1(props) {
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
     <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <script
-      src="https://kit.fontawesome.com/68857e56a4.js"
-      crossorigin="anonymous"
-    ></script>
+    <link href="https://www.decathlon.at/ecat/static/fontawesome-free-5.15.2-web/css/all.css" rel="stylesheet">
 
     <link
       rel="stylesheet"
