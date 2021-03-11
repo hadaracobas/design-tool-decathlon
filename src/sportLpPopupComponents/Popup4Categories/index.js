@@ -165,6 +165,10 @@ export default function Popup4Categories(props) {
         background-position: center !important;
         background-size: cover !important;
       }
+
+      .four-categories .category-content {
+        max-width: 100%;
+      }
     </style>
     <h2 class="sportLp__section-title">${sectionTitleInput}</h2>
     <div class="four-categories">
