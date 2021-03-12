@@ -144,6 +144,10 @@ export default function Popup3Categories(props) {
         background-size: cover !important;
         background-position: center !important;
       }
+
+      .sportLp__section-title {
+        font-weight: bold;
+       }
     </style>
     <h2 class="sportLp__section-title">${sectionTitleInput}</h2>
     <div class="three-categories">

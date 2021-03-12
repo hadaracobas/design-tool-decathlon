@@ -440,6 +440,13 @@ export default function PopupProductsSlider1(props) {
         top: 26px !important;
         right: 20px;
     }
+     .products-slider1 .swiper-slide {
+       height: 368px;
+    }
+   
+    .sportLp__section-title {
+       font-weight: bold;
+    }
 
     @media (min-width: 1200px) {
       .products-slider1__arrow {

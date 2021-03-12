@@ -169,6 +169,9 @@ export default function Popup4Categories(props) {
       .four-categories .category-content {
         max-width: 100%;
       }
+      .sportLp__section-title {
+        font-weight: bold;
+    }
     </style>
     <h2 class="sportLp__section-title">${sectionTitleInput}</h2>
     <div class="four-categories">
