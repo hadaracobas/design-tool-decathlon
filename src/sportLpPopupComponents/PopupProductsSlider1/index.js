@@ -452,7 +452,12 @@ export default function PopupProductsSlider1(props) {
       .products-slider1__arrow {
           top: 46% !important;
       }
+      .products-slider1 {
+        padding-bottom: 0;
+      }
     }
+
+
 
     </style>
     <h2 class="sportLp__section-title">${slider1Title}</h2>
