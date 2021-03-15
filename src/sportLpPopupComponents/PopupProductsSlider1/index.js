@@ -453,7 +453,7 @@ export default function PopupProductsSlider1(props) {
           top: 46% !important;
       }
       .products-slider1 {
-        padding-bottom: 0;
+        padding-bottom: 0 !important;
       }
     }
 
