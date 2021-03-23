@@ -448,13 +448,15 @@ export default function PopupProductsSlider1(props) {
        font-weight: bold;
     }
 
+    .products-slider1 {
+      padding-bottom: 0 !important;
+    }
+
     @media (min-width: 1200px) {
       .products-slider1__arrow {
           top: 46% !important;
       }
-      .products-slider1 {
-        padding-bottom: 0 !important;
-      }
+
     }
 
 
