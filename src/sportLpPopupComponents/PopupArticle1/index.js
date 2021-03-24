@@ -104,6 +104,10 @@ export default function PopupArticle1(props) {
         padding: 8px 32px;
     }
 
+    .article1__content--title {
+      border-top: none !important;
+    }
+
     </style>
     <div class="article1">
       <div class="article1__imgContainer article1__imgContainer${categorySectionIdNumber}"></div>
