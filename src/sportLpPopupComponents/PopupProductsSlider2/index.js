@@ -191,6 +191,7 @@ export default function PopupProductsSlider2(props) {
   const generateCodeFunc = () => {
     setGenerateCode(true);
     setCodeOfComponent(`
+    <!-- ***************** START DISPLAY PRODUCTS SLIDER2 (advantages slider) ***************** -->
     <link href="https://www.decathlon.at/ecat/static/fontawesome-free-5.15.2-web/css/all.css" rel="stylesheet">
 
     <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
@@ -363,7 +364,7 @@ export default function PopupProductsSlider2(props) {
           </script>
         </div>
         <div style="margin: 12px 0"> </div>
-    
+        <!-- ***************** END DISPLAY PRODUCTS SLIDER2 (advantages slider) ***************** -->
     
     `);
   };
