@@ -8,6 +8,7 @@ import screenshotFourCategories from "../../img/four-categories-screenshot.png";
 import screenshotBanner1 from "../../img/banner1-screenshot.png";
 import screenshotArticle1 from "../../img/article1-screenshot.png";
 import screenshotProductsSlider1 from "../../img/products-slider1-screenshot.png";
+import screenshotProductsSlider2 from "../../img/products-slider2-screenshot.png";
 
 import "./index.css";
 import PopupModalUseComponent from "../PopupModalUseComponent";
@@ -17,6 +18,7 @@ import Popup4Categories from "../../sportLpPopupComponents/Popup4Categories";
 import PopupBanner1 from "../../sportLpPopupComponents/PopupBanner1";
 import PopupArticle1 from "../../sportLpPopupComponents/PopupArticle1";
 import PopupProductsSlider1 from "../../sportLpPopupComponents/PopupProductsSlider1";
+import PopupProductsSlider2 from "../../sportLpPopupComponents/PopupProductsSlider2";
 
 const SportLP = () => {
   const [open2CategoriesComponent, setOpen2CategoriesComponent] = useState(
@@ -40,6 +42,11 @@ const SportLP = () => {
     setOpenProductsSlider1Component,
   ] = useState(false);
 
+  const [
+    openProductsSlider2Component,
+    setOpenProductsSlider2Component,
+  ] = useState(false);
+
   return (
     <div className="sprortLP">
       <h2 className="title"> Sport LP Components</h2>
@@ -47,43 +54,50 @@ const SportLP = () => {
         <div className="card">
           <ImgMediaCard
             imageUrl={screenshotTwoCategories}
-            componentTitle="Display 2 Categories"
+            componentTitle="2 Categories"
             onClick={() => setOpen2CategoriesComponent(true)}
           />
         </div>
         <div className="card">
           <ImgMediaCard
             imageUrl={screenshotThreeCategories}
-            componentTitle="Display 3 Categories"
+            componentTitle="3 Categories"
             onClick={() => setOpen3CategoriesComponent(true)}
           />
         </div>
         <div className="card">
           <ImgMediaCard
             imageUrl={screenshotFourCategories}
-            componentTitle="Display 4 Categories"
+            componentTitle="4 Categories"
             onClick={() => setOpen4CategoriesComponent(true)}
           />
         </div>
         <div className="card">
           <ImgMediaCard
             imageUrl={screenshotBanner1}
-            componentTitle="Display Banner"
+            componentTitle="Banner"
             onClick={() => setOpenBanner1Component(true)}
           />
         </div>
         <div className="card">
           <ImgMediaCard
             imageUrl={screenshotArticle1}
-            componentTitle="Display Article"
+            componentTitle="Article"
             onClick={() => setOpenArticle1Component(true)}
           />
         </div>
         <div className="card">
           <ImgMediaCard
             imageUrl={screenshotProductsSlider1}
-            componentTitle="Display Products Slider"
+            componentTitle="Products Slider"
             onClick={() => setOpenProductsSlider1Component(true)}
+          />
+        </div>
+        <div className="card">
+          <ImgMediaCard
+            imageUrl={screenshotProductsSlider2}
+            componentTitle="Product Advantages Slider"
+            onClick={() => setOpenProductsSlider2Component(true)}
           />
         </div>
       </div>
@@ -95,7 +109,6 @@ const SportLP = () => {
       />
       */}
 
-      <div>--------------------------------</div>
       <Popup2Categories
         imgUrl={screenshotTwoCategories}
         open={open2CategoriesComponent}
@@ -126,6 +139,12 @@ const SportLP = () => {
         imgUrl={screenshotProductsSlider1}
         open={openProductsSlider1Component}
         handleClose={() => setOpenProductsSlider1Component(false)}
+      />
+
+      <PopupProductsSlider2
+        imgUrl={screenshotProductsSlider2}
+        open={openProductsSlider2Component}
+        handleClose={() => setOpenProductsSlider2Component(false)}
       />
     </div>
   );
