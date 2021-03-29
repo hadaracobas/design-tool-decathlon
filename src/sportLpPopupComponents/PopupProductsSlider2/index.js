@@ -202,6 +202,24 @@ export default function PopupProductsSlider2(props) {
       rel="stylesheet"
       href="https://www.decathlon.at/ecat/static/sport-lp-css-v2/products-sliders-css/products-slider2.css"
     />
+
+    <style>
+  .products-slider2 .swiper-container {
+    position: relative;
+  }
+
+  .products-slider2__item {
+    width: 168px;
+    text-align: left;
+    margin: 0 auto;
+  }
+
+  @media (min-width: 900px) {
+    .products-slider2__item {
+      width: 100%;
+    }
+  }
+   </style>
     
      
         <div class="products-slider2">
@@ -354,7 +372,7 @@ export default function PopupProductsSlider2(props) {
     
           <!-- Initialize Swiper -->
           <script>
-            var swiper = new Swiper(".swiper-container__products-slider2__${sliderId}", {
+            var swiper${sliderId} = new Swiper(".swiper-container__products-slider2__${sliderId}", {
               navigation: {
                 nextEl: ".products-slider2__next-btn${sliderId}",
                 prevEl: ".products-slider2__prev-btn${sliderId}",

@@ -770,7 +770,7 @@ export default function PopupProductsSlider1(props) {
 
     <!-- Initialize Swiper -->
     <script>
-      var swiper = new Swiper(".products-slider1__swiper-container${sliderId}", {
+      var swiper${sliderId} = new Swiper(".products-slider1__swiper-container${sliderId}", {
         navigation: {
           nextEl: ".products-slider1__arrow--right${sliderId}",
           prevEl: ".products-slider1__arrow--left${sliderId}",
