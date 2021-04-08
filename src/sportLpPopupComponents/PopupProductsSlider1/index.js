@@ -419,10 +419,7 @@ export default function PopupProductsSlider1(props) {
     setGenerateCode(true);
     setCodeOfComponent(`
     <!-- ***************** START DISPLAY PRODUCTS SLIDER1 ***************** -->
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
-    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <link href="https://www.decathlon.at/ecat/static/fontawesome-free-5.15.2-web/css/all.css" rel="stylesheet">
+
 
     <link
       rel="stylesheet"

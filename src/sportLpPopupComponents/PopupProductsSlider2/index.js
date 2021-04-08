@@ -192,10 +192,7 @@ export default function PopupProductsSlider2(props) {
     setGenerateCode(true);
     setCodeOfComponent(`
     <!-- ***************** START DISPLAY PRODUCTS SLIDER2 (advantages slider) ***************** -->
-    <link href="https://www.decathlon.at/ecat/static/fontawesome-free-5.15.2-web/css/all.css" rel="stylesheet">
 
-    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> 
     
     
     <link
