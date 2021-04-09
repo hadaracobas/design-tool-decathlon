@@ -973,7 +973,7 @@ export default function PopupProductsSlider1(props) {
                 <div className="popupInputsContainer__wrapper">
                   <TextField
                     id="standard-basic"
-                    label="add product image src"
+                    label="add product image src (please set the image src url to 200px)"
                     style={{ width: "80%" }}
                     onChange={slider1Product1ImageSrcHandleOnChange}
                   />
@@ -1119,7 +1119,7 @@ export default function PopupProductsSlider1(props) {
                 <div className="popupInputsContainer__wrapper">
                   <TextField
                     id="standard-basic"
-                    label="add product image src"
+                    label="add product image src (please set the image src url to 200px)"
                     style={{ width: "80%" }}
                     onChange={slider1Product2ImageSrcHandleOnChange}
                   />
@@ -1265,7 +1265,7 @@ export default function PopupProductsSlider1(props) {
                 <div className="popupInputsContainer__wrapper">
                   <TextField
                     id="standard-basic"
-                    label="add product image src"
+                    label="add product image src (please set the image src url to 200px)"
                     style={{ width: "80%" }}
                     onChange={slider1Product3ImageSrcHandleOnChange}
                   />
@@ -1411,7 +1411,7 @@ export default function PopupProductsSlider1(props) {
                 <div className="popupInputsContainer__wrapper">
                   <TextField
                     id="standard-basic"
-                    label="add product image src"
+                    label="add product image src (please set the image src url to 200px)"
                     style={{ width: "80%" }}
                     onChange={slider1Product4ImageSrcHandleOnChange}
                   />
@@ -1557,7 +1557,7 @@ export default function PopupProductsSlider1(props) {
                 <div className="popupInputsContainer__wrapper">
                   <TextField
                     id="standard-basic"
-                    label="add product image src"
+                    label="add product image src (please set the image src url to 200px)"
                     style={{ width: "80%" }}
                     onChange={slider1Product5ImageSrcHandleOnChange}
                   />
@@ -1703,7 +1703,7 @@ export default function PopupProductsSlider1(props) {
                 <div className="popupInputsContainer__wrapper">
                   <TextField
                     id="standard-basic"
-                    label="add product image src"
+                    label="add product image src (please set the image src url to 200px)"
                     style={{ width: "80%" }}
                     onChange={slider1Product6ImageSrcHandleOnChange}
                   />
