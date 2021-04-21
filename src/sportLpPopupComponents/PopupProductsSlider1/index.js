@@ -989,7 +989,7 @@ export default function PopupProductsSlider1(props) {
                 <div className="popupInputsContainer__wrapper">
                   <TextField
                     id="standard-basic"
-                    label="add product name"
+                    label="add product brand"
                     style={{ width: "80%" }}
                     onChange={slider1Product1NameHandleOnChange}
                   />
@@ -997,7 +997,7 @@ export default function PopupProductsSlider1(props) {
                 <div className="popupInputsContainer__wrapper">
                   <TextField
                     id="standard-basic"
-                    label="add product brand"
+                    label="add product name"
                     style={{ width: "80%" }}
                     onChange={slider1Product1BrandHandleOnChange}
                   />
@@ -1135,7 +1135,7 @@ export default function PopupProductsSlider1(props) {
                 <div className="popupInputsContainer__wrapper">
                   <TextField
                     id="standard-basic"
-                    label="add product name"
+                    label="add product brand"
                     style={{ width: "80%" }}
                     onChange={slider1Product2NameHandleOnChange}
                   />
@@ -1143,7 +1143,7 @@ export default function PopupProductsSlider1(props) {
                 <div className="popupInputsContainer__wrapper">
                   <TextField
                     id="standard-basic"
-                    label="add product brand"
+                    label="add product name"
                     style={{ width: "80%" }}
                     onChange={slider1Product2BrandHandleOnChange}
                   />
@@ -1281,7 +1281,7 @@ export default function PopupProductsSlider1(props) {
                 <div className="popupInputsContainer__wrapper">
                   <TextField
                     id="standard-basic"
-                    label="add product name"
+                    label="add product brand"
                     style={{ width: "80%" }}
                     onChange={slider1Product3NameHandleOnChange}
                   />
@@ -1289,7 +1289,7 @@ export default function PopupProductsSlider1(props) {
                 <div className="popupInputsContainer__wrapper">
                   <TextField
                     id="standard-basic"
-                    label="add product brand"
+                    label="add product name"
                     style={{ width: "80%" }}
                     onChange={slider1Product3BrandHandleOnChange}
                   />
@@ -1427,7 +1427,7 @@ export default function PopupProductsSlider1(props) {
                 <div className="popupInputsContainer__wrapper">
                   <TextField
                     id="standard-basic"
-                    label="add product name"
+                    label="add product brand"
                     style={{ width: "80%" }}
                     onChange={slider1Product4NameHandleOnChange}
                   />
@@ -1435,7 +1435,7 @@ export default function PopupProductsSlider1(props) {
                 <div className="popupInputsContainer__wrapper">
                   <TextField
                     id="standard-basic"
-                    label="add product brand"
+                    label="add product name"
                     style={{ width: "80%" }}
                     onChange={slider1Product4BrandHandleOnChange}
                   />
@@ -1573,7 +1573,7 @@ export default function PopupProductsSlider1(props) {
                 <div className="popupInputsContainer__wrapper">
                   <TextField
                     id="standard-basic"
-                    label="add product name"
+                    label="add product brand"
                     style={{ width: "80%" }}
                     onChange={slider1Product5NameHandleOnChange}
                   />
@@ -1581,7 +1581,7 @@ export default function PopupProductsSlider1(props) {
                 <div className="popupInputsContainer__wrapper">
                   <TextField
                     id="standard-basic"
-                    label="add product brand"
+                    label="add product name"
                     style={{ width: "80%" }}
                     onChange={slider1Product5BrandHandleOnChange}
                   />
@@ -1719,7 +1719,7 @@ export default function PopupProductsSlider1(props) {
                 <div className="popupInputsContainer__wrapper">
                   <TextField
                     id="standard-basic"
-                    label="add product name"
+                    label="add product brand"
                     style={{ width: "80%" }}
                     onChange={slider1Product6NameHandleOnChange}
                   />
@@ -1727,7 +1727,7 @@ export default function PopupProductsSlider1(props) {
                 <div className="popupInputsContainer__wrapper">
                   <TextField
                     id="standard-basic"
-                    label="add product brand"
+                    label="add product name"
                     style={{ width: "80%" }}
                     onChange={slider1Product6BrandHandleOnChange}
                   />
