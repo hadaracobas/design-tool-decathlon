@@ -9,6 +9,7 @@ import screenshotBanner1 from "../../img/banner1-screenshot.png";
 import screenshotArticle1 from "../../img/article1-screenshot.png";
 import screenshotProductsSlider1 from "../../img/products-slider1-screenshot.png";
 import screenshotProductsSlider2 from "../../img/products-slider2-screenshot.png";
+import screenshotOneshopSportpage from "../../img/oneshop-sportpage-screenshot.png";
 
 import "./index.css";
 import PopupModalUseComponent from "../PopupModalUseComponent";
@@ -19,6 +20,7 @@ import PopupBanner1 from "../../sportLpPopupComponents/PopupBanner1";
 import PopupArticle1 from "../../sportLpPopupComponents/PopupArticle1";
 import PopupProductsSlider1 from "../../sportLpPopupComponents/PopupProductsSlider1";
 import PopupProductsSlider2 from "../../sportLpPopupComponents/PopupProductsSlider2";
+import PopupOneshopSportpage from "../../sportLpPopupComponents/PopupOneshopSportpage";
 
 const SportLP = () => {
   const [open2CategoriesComponent, setOpen2CategoriesComponent] = useState(
@@ -45,6 +47,11 @@ const SportLP = () => {
   const [
     openProductsSlider2Component,
     setOpenProductsSlider2Component,
+  ] = useState(false);
+
+  const [
+    openOneshopSportpageComponent,
+    setOpenOneshopSportpageComponent,
   ] = useState(false);
 
   return (
@@ -100,6 +107,13 @@ const SportLP = () => {
             onClick={() => setOpenProductsSlider2Component(true)}
           />
         </div>
+        <div className="card">
+          <ImgMediaCard
+            imageUrl={screenshotOneshopSportpage}
+            componentTitle="OneShop Sportpage"
+            onClick={() => setOpenOneshopSportpageComponent(true)}
+          />
+        </div>
       </div>
       {/*
        <PopupModalUseComponent
@@ -145,6 +159,12 @@ const SportLP = () => {
         imgUrl={screenshotProductsSlider2}
         open={openProductsSlider2Component}
         handleClose={() => setOpenProductsSlider2Component(false)}
+      />
+
+      <PopupOneshopSportpage
+        imgUrl={screenshotOneshopSportpage}
+        open={openOneshopSportpageComponent}
+        handleClose={() => setOpenOneshopSportpageComponent(false)}
       />
     </div>
   );
