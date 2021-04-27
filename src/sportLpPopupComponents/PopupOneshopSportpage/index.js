@@ -2575,7 +2575,7 @@ export default function PopupOneshopSportpage(props) {
                 <div className="popupInputsContainer__wrapper">
                   <TextField
                     id="standard-basic"
-                    label="Header image url"
+                    label="Header image url (recommended 600*600)"
                     style={{ width: "80%" }}
                     onChange={(e) =>
                       setOneshopSportpageTopImgUrl(e.target.value)
