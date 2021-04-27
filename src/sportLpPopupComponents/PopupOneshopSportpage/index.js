@@ -807,6 +807,10 @@ export default function PopupOneshopSportpage(props) {
        .desktop-sportpage-navigation__second-level-item {
          padding-bottom: 5px;
        }
+
+       .products-slider1__display-category-btn p {
+        margin-bottom: 0 !important;
+    }
     
        /* change top image here*/
        .sportpage-header__right--img {
