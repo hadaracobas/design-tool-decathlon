@@ -10,6 +10,7 @@ import screenshotArticle1 from "../../img/article1-screenshot.png";
 import screenshotProductsSlider1 from "../../img/products-slider1-screenshot.png";
 import screenshotProductsSlider2 from "../../img/products-slider2-screenshot.png";
 import screenshotOneshopSportpage from "../../img/oneshop-sportpage-screenshot.png";
+import screenshotTrboLoading from "../../img/trbo-loading.png";
 
 import "./index.css";
 import PopupModalUseComponent from "../PopupModalUseComponent";
@@ -21,6 +22,7 @@ import PopupArticle1 from "../../sportLpPopupComponents/PopupArticle1";
 import PopupProductsSlider1 from "../../sportLpPopupComponents/PopupProductsSlider1";
 import PopupProductsSlider2 from "../../sportLpPopupComponents/PopupProductsSlider2";
 import PopupOneshopSportpage from "../../sportLpPopupComponents/PopupOneshopSportpage";
+import PopupTrboSliderContainer from "../../sportLpPopupComponents/PopupTrboSliderContainer";
 
 const SportLP = () => {
   const [open2CategoriesComponent, setOpen2CategoriesComponent] = useState(
@@ -54,6 +56,11 @@ const SportLP = () => {
     setOpenOneshopSportpageComponent,
   ] = useState(false);
 
+  const [
+    openTrboLoadingContainerComponent,
+    setOpenTrboLoadingContainerComponent,
+  ] = useState(false);
+
   return (
     <div className="sprortLP">
       <h2 className="title"> Sport LP Components</h2>
@@ -61,57 +68,64 @@ const SportLP = () => {
         <div className="card">
           <ImgMediaCard
             imageUrl={screenshotTwoCategories}
-            componentTitle="2 Categories"
+            componentTitle="2 categories"
             onClick={() => setOpen2CategoriesComponent(true)}
           />
         </div>
         <div className="card">
           <ImgMediaCard
             imageUrl={screenshotThreeCategories}
-            componentTitle="3 Categories"
+            componentTitle="3 categories"
             onClick={() => setOpen3CategoriesComponent(true)}
           />
         </div>
         <div className="card">
           <ImgMediaCard
             imageUrl={screenshotFourCategories}
-            componentTitle="4 Categories"
+            componentTitle="4 categories"
             onClick={() => setOpen4CategoriesComponent(true)}
           />
         </div>
         <div className="card">
           <ImgMediaCard
             imageUrl={screenshotBanner1}
-            componentTitle="Banner"
+            componentTitle="banner"
             onClick={() => setOpenBanner1Component(true)}
           />
         </div>
         <div className="card">
           <ImgMediaCard
             imageUrl={screenshotArticle1}
-            componentTitle="Article"
+            componentTitle="article"
             onClick={() => setOpenArticle1Component(true)}
           />
         </div>
         <div className="card">
           <ImgMediaCard
             imageUrl={screenshotProductsSlider1}
-            componentTitle="Products Slider"
+            componentTitle="products Slider"
             onClick={() => setOpenProductsSlider1Component(true)}
           />
         </div>
         <div className="card">
           <ImgMediaCard
             imageUrl={screenshotProductsSlider2}
-            componentTitle="Product Advantages Slider"
+            componentTitle="product advantages slider"
             onClick={() => setOpenProductsSlider2Component(true)}
           />
         </div>
         <div className="card">
           <ImgMediaCard
             imageUrl={screenshotOneshopSportpage}
-            componentTitle="OneShop Sportpage"
+            componentTitle="oneshop sportpage"
             onClick={() => setOpenOneshopSportpageComponent(true)}
+          />
+        </div>
+        <div className="card">
+          <ImgMediaCard
+            imageUrl={screenshotTrboLoading}
+            componentTitle="trbo slider container"
+            onClick={() => setOpenTrboLoadingContainerComponent(true)}
           />
         </div>
       </div>
@@ -165,6 +179,12 @@ const SportLP = () => {
         imgUrl={screenshotOneshopSportpage}
         open={openOneshopSportpageComponent}
         handleClose={() => setOpenOneshopSportpageComponent(false)}
+      />
+
+      <PopupTrboSliderContainer
+        imgUrl={screenshotTrboLoading}
+        open={openTrboLoadingContainerComponent}
+        handleClose={() => setOpenTrboLoadingContainerComponent(false)}
       />
     </div>
   );
