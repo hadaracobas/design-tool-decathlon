@@ -1,6 +1,7 @@
 import React from "react";
 import "./index.css";
 import HpComponentsPage from "../HpComponentsPage";
+import MainIllu from "../../img/main-illu.svg";
 
 const Home = () => {
   return (
@@ -12,10 +13,7 @@ const Home = () => {
       <HpComponentsPage />
       */}
       <div className="home__img-container">
-        <img
-          alt=""
-          src="https://images.pexels.com/photos/196645/pexels-photo-196645.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-        />
+        <img alt="" src={MainIllu} />
       </div>
     </div>
   );

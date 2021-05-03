@@ -63,7 +63,7 @@ const SportLP = () => {
 
   return (
     <div className="sprortLP">
-      <h2 className="title"> Sport LP Components</h2>
+      <h2 className="title"> Sport page components</h2>
       <div className="cards">
         <div className="card">
           <ImgMediaCard
@@ -86,6 +86,9 @@ const SportLP = () => {
             onClick={() => setOpen4CategoriesComponent(true)}
           />
         </div>
+      </div>
+
+      <div className="cards">
         <div className="card">
           <ImgMediaCard
             imageUrl={screenshotBanner1}
@@ -107,6 +110,9 @@ const SportLP = () => {
             onClick={() => setOpenProductsSlider1Component(true)}
           />
         </div>
+      </div>
+
+      <div className="cards">
         <div className="card">
           <ImgMediaCard
             imageUrl={screenshotProductsSlider2}
@@ -129,6 +135,7 @@ const SportLP = () => {
           />
         </div>
       </div>
+
       {/*
        <PopupModalUseComponent
         imgUrl={screenshotTwoCategories}

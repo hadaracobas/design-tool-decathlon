@@ -16,7 +16,7 @@ const HpComponentsPage = () => {
         <div className="card">
           <ImgMediaCard
             imageUrl={screenshotHpTopBannerDesktop}
-            componentTitle="HP Main Banner (Desktop + Mobile)"
+            componentTitle="HP main banner"
             onClick={() => setOpen2HpBannerComponent(true)}
           />
         </div>
