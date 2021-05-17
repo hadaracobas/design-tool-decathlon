@@ -63,17 +63,14 @@ export default function PopupProductsSlider1(props) {
   };
 
   // product 1
-  const [
-    slider1Product1DisplayLabelBool,
-    setSlider1Product1DisplayLabelBool,
-  ] = useState("no");
+  const [slider1Product1DisplayLabelBool, setSlider1Product1DisplayLabelBool] =
+    useState("no");
   const slider1Product1DisplayLabelBoolHandleOnChange = (e) => {
     setSlider1Product1DisplayLabelBool(e.target.value);
   };
 
-  const [slider1Product1LabelColor, setSlider1Product1LabelColor] = useState(
-    "#0DB14B"
-  );
+  const [slider1Product1LabelColor, setSlider1Product1LabelColor] =
+    useState("#0DB14B");
   const slider1Product1LabelColorHandleOnChange = (e) => {
     setSlider1Product1LabelColor(e.target.value);
   };
@@ -117,17 +114,14 @@ export default function PopupProductsSlider1(props) {
   };
 
   // product 2
-  const [
-    slider1Product2DisplayLabelBool,
-    setSlider1Product2DisplayLabelBool,
-  ] = useState("no");
+  const [slider1Product2DisplayLabelBool, setSlider1Product2DisplayLabelBool] =
+    useState("no");
   const slider1Product2DisplayLabelBoolHandleOnChange = (e) => {
     setSlider1Product2DisplayLabelBool(e.target.value);
   };
 
-  const [slider1Product2LabelColor, setSlider1Product2LabelColor] = useState(
-    "#0DB14B"
-  );
+  const [slider1Product2LabelColor, setSlider1Product2LabelColor] =
+    useState("#0DB14B");
   const slider1Product2LabelColorHandleOnChange = (e) => {
     setSlider1Product2LabelColor(e.target.value);
   };
@@ -171,17 +165,14 @@ export default function PopupProductsSlider1(props) {
   };
 
   // product 3
-  const [
-    slider1Product3DisplayLabelBool,
-    setSlider1Product3DisplayLabelBool,
-  ] = useState("no");
+  const [slider1Product3DisplayLabelBool, setSlider1Product3DisplayLabelBool] =
+    useState("no");
   const slider1Product3DisplayLabelBoolHandleOnChange = (e) => {
     setSlider1Product3DisplayLabelBool(e.target.value);
   };
 
-  const [slider1Product3LabelColor, setSlider1Product3LabelColor] = useState(
-    "#0DB14B"
-  );
+  const [slider1Product3LabelColor, setSlider1Product3LabelColor] =
+    useState("#0DB14B");
   const slider1Product3LabelColorHandleOnChange = (e) => {
     setSlider1Product3LabelColor(e.target.value);
   };
@@ -225,17 +216,14 @@ export default function PopupProductsSlider1(props) {
   };
 
   // product 4
-  const [
-    slider1Product4DisplayLabelBool,
-    setSlider1Product4DisplayLabelBool,
-  ] = useState("no");
+  const [slider1Product4DisplayLabelBool, setSlider1Product4DisplayLabelBool] =
+    useState("no");
   const slider1Product4DisplayLabelBoolHandleOnChange = (e) => {
     setSlider1Product4DisplayLabelBool(e.target.value);
   };
 
-  const [slider1Product4LabelColor, setSlider1Product4LabelColor] = useState(
-    "#0DB14B"
-  );
+  const [slider1Product4LabelColor, setSlider1Product4LabelColor] =
+    useState("#0DB14B");
   const slider1Product4LabelColorHandleOnChange = (e) => {
     setSlider1Product4LabelColor(e.target.value);
   };
@@ -279,17 +267,14 @@ export default function PopupProductsSlider1(props) {
   };
 
   // product 5
-  const [
-    slider1Product5DisplayLabelBool,
-    setSlider1Product5DisplayLabelBool,
-  ] = useState("no");
+  const [slider1Product5DisplayLabelBool, setSlider1Product5DisplayLabelBool] =
+    useState("no");
   const slider1Product5DisplayLabelBoolHandleOnChange = (e) => {
     setSlider1Product5DisplayLabelBool(e.target.value);
   };
 
-  const [slider1Product5LabelColor, setSlider1Product5LabelColor] = useState(
-    "#0DB14B"
-  );
+  const [slider1Product5LabelColor, setSlider1Product5LabelColor] =
+    useState("#0DB14B");
   const slider1Product5LabelColorHandleOnChange = (e) => {
     setSlider1Product5LabelColor(e.target.value);
   };
@@ -333,17 +318,14 @@ export default function PopupProductsSlider1(props) {
   };
 
   // product 6
-  const [
-    slider1Product6DisplayLabelBool,
-    setSlider1Product6DisplayLabelBool,
-  ] = useState("no");
+  const [slider1Product6DisplayLabelBool, setSlider1Product6DisplayLabelBool] =
+    useState("no");
   const slider1Product6DisplayLabelBoolHandleOnChange = (e) => {
     setSlider1Product6DisplayLabelBool(e.target.value);
   };
 
-  const [slider1Product6LabelColor, setSlider1Product6LabelColor] = useState(
-    "#0DB14B"
-  );
+  const [slider1Product6LabelColor, setSlider1Product6LabelColor] =
+    useState("#0DB14B");
   const slider1Product6LabelColorHandleOnChange = (e) => {
     setSlider1Product6LabelColor(e.target.value);
   };
@@ -387,28 +369,28 @@ export default function PopupProductsSlider1(props) {
   };
 
   // category column in slider
-  const [
-    slider1CategoryColumnImageSrc,
-    setSlider1CategoryColumnImageSrc,
-  ] = useState("");
+  const [slider1CategoryColumnImageSrc, setSlider1CategoryColumnImageSrc] =
+    useState("");
   const slider1CategoryColumnImageSrcHandleOnChange = (e) => {
     setSlider1CategoryColumnImageSrc(e.target.value);
   };
 
-  const [
-    slider1CategoryColumnBtnText,
-    setSlider1CategoryColumnBtnText,
-  ] = useState("");
+  const [slider1CategoryColumnBtnText, setSlider1CategoryColumnBtnText] =
+    useState("");
   const slider1CategoryColumnBtnTextHandleOnChange = (e) => {
     setSlider1CategoryColumnBtnText(e.target.value);
   };
 
-  const [
-    slider1CategoryColumnBtnLinkUrl,
-    setSlider1CategoryColumnBtnLinkUrl,
-  ] = useState("");
+  const [slider1CategoryColumnBtnLinkUrl, setSlider1CategoryColumnBtnLinkUrl] =
+    useState("");
   const slider1CategoryColumnBtnLinkUrlHandleOnChange = (e) => {
     setSlider1CategoryColumnBtnLinkUrl(e.target.value);
+  };
+
+  // type of slider design (sparkow / oneshop)
+  const [sliderDesignType, setSliderDesignType] = useState("sparkow");
+  const handleOnChangeSliderDesignType = (e) => {
+    setSliderDesignType(e.target.value);
   };
 
   // code of component
@@ -417,383 +399,820 @@ export default function PopupProductsSlider1(props) {
 
   const generateCodeFunc = () => {
     setGenerateCode(true);
-    setCodeOfComponent(`
-    <!-- ***************** START DISPLAY PRODUCTS SLIDER1 ***************** -->
-
-
-    <link
-      rel="stylesheet"
-      href="https://www.decathlon.at/ecat/static/sport-lp-css-v2/products-sliders-css/style.css"
-    />
-
-    <style>
-      .products-slider1__display-category${sliderId} {
-        background-image: url("${slider1CategoryColumnImageSrc}") !important;
-        background-position: center;
+    if (sliderDesignType === "sparkow") {
+      setCodeOfComponent(`
+      <!-- ***************** START DISPLAY PRODUCTS SLIDER1 ***************** -->
+  
+  
+      <link
+        rel="stylesheet"
+        href="https://www.decathlon.at/ecat/static/sport-lp-css-v2/products-sliders-css/style.css"
+      />
+  
+      <style>
+        .products-slider1__display-category${sliderId} {
+          background-image: url("${slider1CategoryColumnImageSrc}") !important;
+          background-position: center;
+        }
+  
+        .products-slider1__priceContainer {
+          position: absolute;
+          top: 26px !important;
+          right: 20px;
       }
-
-      .products-slider1__priceContainer {
-        position: absolute;
-        top: 26px !important;
-        right: 20px;
-    }
-     .products-slider1 .swiper-slide {
-       height: 368px;
-    }
-   
-    .sportLp__section-title {
-       font-weight: bold;
-    }
-
-    .products-slider1 {
-      padding-bottom: 0 !important;
-    }
-
-    @media (min-width: 1200px) {
-      .products-slider1__arrow {
-          top: 46% !important;
+       .products-slider1 .swiper-slide {
+         height: 368px;
       }
-
-    }
-
-
-
-    </style>
-    <h2 class="sportLp__section-title">${slider1Title}</h2>
-    <div class="products-slider1">
-    <!--
-      <div class="products-slider1__titleContainer">
-        <h2>${slider1Title}</h2>
-      </div>
-      -->
-      <!-- Swiper -->
-      <div class="swiper-container products-slider1__swiper-container products-slider1__swiper-container${sliderId}">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-          ${
-            slider1Product1DisplayLabelBool === "yes"
-              ? `
-              <div class="products-slider1__labelContainer" style="background-color: ${slider1Product1LabelColor}">
-                <span>${slider1Product1LabelText}</span>
-              </div>
-                `
-              : `
-                <!--
+     
+      .sportLp__section-title {
+         font-weight: bold;
+      }
+  
+      .products-slider1 {
+        padding-bottom: 0 !important;
+      }
+  
+      @media (min-width: 1200px) {
+        .products-slider1__arrow {
+            top: 46% !important;
+        }
+  
+      }
+  
+  
+  
+      </style>
+      <h2 class="sportLp__section-title">${slider1Title}</h2>
+      <div class="products-slider1">
+      <!--
+        <div class="products-slider1__titleContainer">
+          <h2>${slider1Title}</h2>
+        </div>
+        -->
+        <!-- Swiper -->
+        <div class="swiper-container products-slider1__swiper-container products-slider1__swiper-container${sliderId}">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+            ${
+              slider1Product1DisplayLabelBool === "yes"
+                ? `
                 <div class="products-slider1__labelContainer" style="background-color: ${slider1Product1LabelColor}">
                   <span>${slider1Product1LabelText}</span>
                 </div>
-                -->
                   `
-          }
-
-            <div class="products-slider1__priceContainer">
-            ${
-              slider1Product1DisplayAbPriceBool === "yes"
-                ? '<span class="products-slider1__priceContainer--ab-price">Ab</span>'
-                : '<!--<span class="products-slider1__priceContainer--ab-price">Ab</span>-->'
+                : `
+                  <!--
+                  <div class="products-slider1__labelContainer" style="background-color: ${slider1Product1LabelColor}">
+                    <span>${slider1Product1LabelText}</span>
+                  </div>
+                  -->
+                    `
             }
-              
-              <span class="products-slider1__priceContainer--price"
-                >${slider1Product1Price}€</span
-              >
-            </div>
-            <div class="products-slider1__imgContainer">
-              <a href="${slider1Product1LinkUrl}">
-                <img
-                  alt="${slider1Product1Name}"
-                  src="${slider1Product1ImageSrc}"
-                />
-              </a>
-            </div>
-            <div class="products-slider1__info">
-              <div class="products-slider1__nameContainer">
-                <span>${slider1Product1Name}</span>
+  
+              <div class="products-slider1__priceContainer">
+              ${
+                slider1Product1DisplayAbPriceBool === "yes"
+                  ? '<span class="products-slider1__priceContainer--ab-price">Ab</span>'
+                  : '<!--<span class="products-slider1__priceContainer--ab-price">Ab</span>-->'
+              }
+                
+                <span class="products-slider1__priceContainer--price"
+                  >${slider1Product1Price}€</span
+                >
               </div>
-              <div class="products-slider1__brandContainer">
-                <span>${slider1Product1Brand} </span>
+              <div class="products-slider1__imgContainer">
+                <a href="${slider1Product1LinkUrl}">
+                  <img
+                    alt="${slider1Product1Name}"
+                    src="${slider1Product1ImageSrc}"
+                  />
+                </a>
+              </div>
+              <div class="products-slider1__info">
+                <div class="products-slider1__nameContainer">
+                  <span>${slider1Product1Name}</span>
+                </div>
+                <div class="products-slider1__brandContainer">
+                  <span>${slider1Product1Brand} </span>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="swiper-slide">
-          ${
-            slider1Product2DisplayLabelBool === "yes"
-              ? `
-              <div class="products-slider1__labelContainer" style="background-color: ${slider1Product2LabelColor}">
-                <span>${slider1Product2LabelText}</span>
-              </div>
-                `
-              : `
-                <!--
+            <div class="swiper-slide">
+            ${
+              slider1Product2DisplayLabelBool === "yes"
+                ? `
                 <div class="products-slider1__labelContainer" style="background-color: ${slider1Product2LabelColor}">
                   <span>${slider1Product2LabelText}</span>
                 </div>
-                -->
                   `
-          }
-
-            <div class="products-slider1__priceContainer">
-            ${
-              slider1Product2DisplayAbPriceBool === "yes"
-                ? '<span class="products-slider1__priceContainer--ab-price">Ab</span>'
-                : '<!--<span class="products-slider1__priceContainer--ab-price">Ab</span>-->'
+                : `
+                  <!--
+                  <div class="products-slider1__labelContainer" style="background-color: ${slider1Product2LabelColor}">
+                    <span>${slider1Product2LabelText}</span>
+                  </div>
+                  -->
+                    `
             }
-              <span class="products-slider1__priceContainer--price"
-                >${slider1Product2Price}€</span
-              >
-            </div>
-            <div class="products-slider1__imgContainer">
-              <a href="${slider1Product2LinkUrl}">
-                <img
-                  alt="${slider1Product2Name}"
-                  src="${slider1Product2ImageSrc}"
-                />
-              </a>
-            </div>
-            <div class="products-slider1__info">
-              <div class="products-slider1__nameContainer">
-                <span>${slider1Product2Name}</span>
+  
+              <div class="products-slider1__priceContainer">
+              ${
+                slider1Product2DisplayAbPriceBool === "yes"
+                  ? '<span class="products-slider1__priceContainer--ab-price">Ab</span>'
+                  : '<!--<span class="products-slider1__priceContainer--ab-price">Ab</span>-->'
+              }
+                <span class="products-slider1__priceContainer--price"
+                  >${slider1Product2Price}€</span
+                >
               </div>
-              <div class="products-slider1__brandContainer">
-                <span>${slider1Product2Brand}</span>
+              <div class="products-slider1__imgContainer">
+                <a href="${slider1Product2LinkUrl}">
+                  <img
+                    alt="${slider1Product2Name}"
+                    src="${slider1Product2ImageSrc}"
+                  />
+                </a>
+              </div>
+              <div class="products-slider1__info">
+                <div class="products-slider1__nameContainer">
+                  <span>${slider1Product2Name}</span>
+                </div>
+                <div class="products-slider1__brandContainer">
+                  <span>${slider1Product2Brand}</span>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="swiper-slide">
-          ${
-            slider1Product3DisplayLabelBool === "yes"
-              ? `
-              <div class="products-slider1__labelContainer" style="background-color: ${slider1Product3LabelColor}">
-                <span>${slider1Product3LabelText}</span>
-              </div>
-                `
-              : `
-                <!--
+            <div class="swiper-slide">
+            ${
+              slider1Product3DisplayLabelBool === "yes"
+                ? `
                 <div class="products-slider1__labelContainer" style="background-color: ${slider1Product3LabelColor}">
                   <span>${slider1Product3LabelText}</span>
                 </div>
-                -->
                   `
-          }
-
-            <div class="products-slider1__priceContainer">
-            ${
-              slider1Product3DisplayAbPriceBool === "yes"
-                ? '<span class="products-slider1__priceContainer--ab-price">Ab</span>'
-                : '<!--<span class="products-slider1__priceContainer--ab-price">Ab</span>-->'
+                : `
+                  <!--
+                  <div class="products-slider1__labelContainer" style="background-color: ${slider1Product3LabelColor}">
+                    <span>${slider1Product3LabelText}</span>
+                  </div>
+                  -->
+                    `
             }
-              <span class="products-slider1__priceContainer--price"
-                >${slider1Product3Price}€</span
-              >
-            </div>
-            <div class="products-slider1__imgContainer">
-              <a href="${slider1Product3LinkUrl}">
-                <img
-                  alt="${slider1Product3Name}"
-                  src="${slider1Product3ImageSrc}"
-                />
-              </a>
-            </div>
-            <div class="products-slider1__info">
-              <div class="products-slider1__nameContainer">
-                <span>${slider1Product3Name}</span>
+  
+              <div class="products-slider1__priceContainer">
+              ${
+                slider1Product3DisplayAbPriceBool === "yes"
+                  ? '<span class="products-slider1__priceContainer--ab-price">Ab</span>'
+                  : '<!--<span class="products-slider1__priceContainer--ab-price">Ab</span>-->'
+              }
+                <span class="products-slider1__priceContainer--price"
+                  >${slider1Product3Price}€</span
+                >
               </div>
-              <div class="products-slider1__brandContainer">
-                <span>${slider1Product3Brand}</span>
+              <div class="products-slider1__imgContainer">
+                <a href="${slider1Product3LinkUrl}">
+                  <img
+                    alt="${slider1Product3Name}"
+                    src="${slider1Product3ImageSrc}"
+                  />
+                </a>
+              </div>
+              <div class="products-slider1__info">
+                <div class="products-slider1__nameContainer">
+                  <span>${slider1Product3Name}</span>
+                </div>
+                <div class="products-slider1__brandContainer">
+                  <span>${slider1Product3Brand}</span>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="products-slider1__display-category products-slider1__display-category${sliderId}">
-              <a href="${slider1CategoryColumnBtnLinkUrl}" class="products-slider1__display-category-btn">
-                <p>
-                  <span> ${slider1CategoryColumnBtnText} </span>
-
-                  <i class="fas fa-chevron-right"></i>
-                </p>
-              </a>
-            </div>
-          </div>
-          <div class="swiper-slide">
-          ${
-            slider1Product4DisplayLabelBool === "yes"
-              ? `
-              <div class="products-slider1__labelContainer" style="background-color: ${slider1Product4LabelColor}">
-                <span>${slider1Product4LabelText}</span>
+            <div class="swiper-slide">
+              <div class="products-slider1__display-category products-slider1__display-category${sliderId}">
+                <a href="${slider1CategoryColumnBtnLinkUrl}" class="products-slider1__display-category-btn">
+                  <p>
+                    <span> ${slider1CategoryColumnBtnText} </span>
+  
+                    <i class="fas fa-chevron-right"></i>
+                  </p>
+                </a>
               </div>
-                `
-              : `
-                <!--
+            </div>
+            <div class="swiper-slide">
+            ${
+              slider1Product4DisplayLabelBool === "yes"
+                ? `
                 <div class="products-slider1__labelContainer" style="background-color: ${slider1Product4LabelColor}">
                   <span>${slider1Product4LabelText}</span>
                 </div>
-                -->
                   `
-          }
-
-            <div class="products-slider1__priceContainer">
-            ${
-              slider1Product4DisplayAbPriceBool === "yes"
-                ? '<span class="products-slider1__priceContainer--ab-price">Ab</span>'
-                : '<!--<span class="products-slider1__priceContainer--ab-price">Ab</span>-->'
+                : `
+                  <!--
+                  <div class="products-slider1__labelContainer" style="background-color: ${slider1Product4LabelColor}">
+                    <span>${slider1Product4LabelText}</span>
+                  </div>
+                  -->
+                    `
             }
-              <span class="products-slider1__priceContainer--price"
-                >${slider1Product4Price}€</span
-              >
-            </div>
-            <div class="products-slider1__imgContainer">
-              <a href="${slider1Product4LinkUrl}">
-                <img
-                  alt="${slider1Product4Name}"
-                  src="${slider1Product4ImageSrc}"
-                />
-              </a>
-            </div>
-            <div class="products-slider1__info">
-              <div class="products-slider1__nameContainer">
-                <span>${slider1Product4Name}</span>
+  
+              <div class="products-slider1__priceContainer">
+              ${
+                slider1Product4DisplayAbPriceBool === "yes"
+                  ? '<span class="products-slider1__priceContainer--ab-price">Ab</span>'
+                  : '<!--<span class="products-slider1__priceContainer--ab-price">Ab</span>-->'
+              }
+                <span class="products-slider1__priceContainer--price"
+                  >${slider1Product4Price}€</span
+                >
               </div>
-              <div class="products-slider1__brandContainer">
-                <span> ${slider1Product4Brand} </span>
+              <div class="products-slider1__imgContainer">
+                <a href="${slider1Product4LinkUrl}">
+                  <img
+                    alt="${slider1Product4Name}"
+                    src="${slider1Product4ImageSrc}"
+                  />
+                </a>
+              </div>
+              <div class="products-slider1__info">
+                <div class="products-slider1__nameContainer">
+                  <span>${slider1Product4Name}</span>
+                </div>
+                <div class="products-slider1__brandContainer">
+                  <span> ${slider1Product4Brand} </span>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="swiper-slide">
-          ${
-            slider1Product5DisplayLabelBool === "yes"
-              ? `
-              <div class="products-slider1__labelContainer" style="background-color: ${slider1Product5LabelColor}">
-                <span>${slider1Product5LabelText}</span>
-              </div>
-                `
-              : `
-                <!--
+            <div class="swiper-slide">
+            ${
+              slider1Product5DisplayLabelBool === "yes"
+                ? `
                 <div class="products-slider1__labelContainer" style="background-color: ${slider1Product5LabelColor}">
                   <span>${slider1Product5LabelText}</span>
                 </div>
-                -->
                   `
-          }
-
-            <div class="products-slider1__priceContainer">
-            ${
-              slider1Product5DisplayAbPriceBool === "yes"
-                ? '<span class="products-slider1__priceContainer--ab-price">Ab</span>'
-                : '<!--<span class="products-slider1__priceContainer--ab-price">Ab</span>-->'
+                : `
+                  <!--
+                  <div class="products-slider1__labelContainer" style="background-color: ${slider1Product5LabelColor}">
+                    <span>${slider1Product5LabelText}</span>
+                  </div>
+                  -->
+                    `
             }
-              <span class="products-slider1__priceContainer--price"
-                >${slider1Product5Price}€</span
-              >
-            </div>
-            <div class="products-slider1__imgContainer">
-              <a href="${slider1Product5LinkUrl}">
-                <img
-                  alt="${slider1Product5Name}"
-                  src="${slider1Product5ImageSrc}"
-                />
-              </a>
-            </div>
-            <div class="products-slider1__info">
-              <div class="products-slider1__nameContainer">
-                <span>${slider1Product5Name}</span>
+  
+              <div class="products-slider1__priceContainer">
+              ${
+                slider1Product5DisplayAbPriceBool === "yes"
+                  ? '<span class="products-slider1__priceContainer--ab-price">Ab</span>'
+                  : '<!--<span class="products-slider1__priceContainer--ab-price">Ab</span>-->'
+              }
+                <span class="products-slider1__priceContainer--price"
+                  >${slider1Product5Price}€</span
+                >
               </div>
-              <div class="products-slider1__brandContainer">
-                <span>${slider1Product5Brand}</span>
+              <div class="products-slider1__imgContainer">
+                <a href="${slider1Product5LinkUrl}">
+                  <img
+                    alt="${slider1Product5Name}"
+                    src="${slider1Product5ImageSrc}"
+                  />
+                </a>
+              </div>
+              <div class="products-slider1__info">
+                <div class="products-slider1__nameContainer">
+                  <span>${slider1Product5Name}</span>
+                </div>
+                <div class="products-slider1__brandContainer">
+                  <span>${slider1Product5Brand}</span>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="swiper-slide">
-          ${
-            slider1Product6DisplayLabelBool === "yes"
-              ? `
-              <div class="products-slider1__labelContainer" style="background-color: ${slider1Product6LabelColor}">
-                <span>${slider1Product6LabelText}</span>
-              </div>
-                `
-              : `
-                <!--
+            <div class="swiper-slide">
+            ${
+              slider1Product6DisplayLabelBool === "yes"
+                ? `
                 <div class="products-slider1__labelContainer" style="background-color: ${slider1Product6LabelColor}">
                   <span>${slider1Product6LabelText}</span>
                 </div>
-                -->
                   `
-          }
-
-            <div class="products-slider1__priceContainer">
-            ${
-              slider1Product6DisplayAbPriceBool === "yes"
-                ? '<span class="products-slider1__priceContainer--ab-price">Ab</span>'
-                : '<!--<span class="products-slider1__priceContainer--ab-price">Ab</span>-->'
+                : `
+                  <!--
+                  <div class="products-slider1__labelContainer" style="background-color: ${slider1Product6LabelColor}">
+                    <span>${slider1Product6LabelText}</span>
+                  </div>
+                  -->
+                    `
             }
-              <span class="products-slider1__priceContainer--price"
-                >${slider1Product6Price}€</span
-              >
-            </div>
-            <div class="products-slider1__imgContainer">
-              <a href="${slider1Product6LinkUrl}">
-                <img
-                  alt="${slider1Product6Name}"
-                  src="${slider1Product6ImageSrc}"
-                />
-              </a>
-            </div>
-            <div class="products-slider1__info">
-              <div class="products-slider1__nameContainer">
-                <span>${slider1Product6Name}</span>
+  
+              <div class="products-slider1__priceContainer">
+              ${
+                slider1Product6DisplayAbPriceBool === "yes"
+                  ? '<span class="products-slider1__priceContainer--ab-price">Ab</span>'
+                  : '<!--<span class="products-slider1__priceContainer--ab-price">Ab</span>-->'
+              }
+                <span class="products-slider1__priceContainer--price"
+                  >${slider1Product6Price}€</span
+                >
               </div>
-              <div class="products-slider1__brandContainer">
-                <span>${slider1Product6Brand} </span>
+              <div class="products-slider1__imgContainer">
+                <a href="${slider1Product6LinkUrl}">
+                  <img
+                    alt="${slider1Product6Name}"
+                    src="${slider1Product6ImageSrc}"
+                  />
+                </a>
+              </div>
+              <div class="products-slider1__info">
+                <div class="products-slider1__nameContainer">
+                  <span>${slider1Product6Name}</span>
+                </div>
+                <div class="products-slider1__brandContainer">
+                  <span>${slider1Product6Brand} </span>
+                </div>
               </div>
             </div>
           </div>
         </div>
+  
+        <div class="products-slider1__arrow products-slider1__arrow--left products-slider1__arrow--left${sliderId}">
+          <i class="fas fa-chevron-circle-left"></i>
+        </div>
+        <div class="products-slider1__arrow products-slider1__arrow--right products-slider1__arrow--right${sliderId}">
+          <i class="fas fa-chevron-circle-right"></i>
+        </div>
+  
+        <!-- Add Arrows -->
+  
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
       </div>
+      <!-- end .products-slider1 -->
+  
+      <!-- Swiper JS -->
+      <script src="../package/swiper-bundle.min.js"></script>
+  
+      <!-- Initialize Swiper -->
+      <script>
+        var swiper${sliderId} = new Swiper(".products-slider1__swiper-container${sliderId}", {
+          navigation: {
+            nextEl: ".products-slider1__arrow--right${sliderId}",
+            prevEl: ".products-slider1__arrow--left${sliderId}",
+          },
+  
+          breakpoints: {
+            200: {
+              slidesPerView: 1,
+              spaceBetweenSlides: 30,
+            },
+  
+            760: {
+              slidesPerView: 2,
+              spaceBetween: 40,
+            },
+            1100: {
+              slidesPerView: 4,
+              spaceBetween: 2,
+            },
+          },
+          loop: true,
+        });
+      </script>
+      <div style="margin: 12px 0">&nbsp;</div>
+      <!-- ***************** END DISPLAY PRODUCTS SLIDER1 ***************** -->
+      `);
+    } else if (sliderDesignType === "oneshop") {
+      setCodeOfComponent(`
+      <!-- ***************** START DISPLAY PRODUCTS SLIDER1 ***************** -->
+  
+  
+      <link
+        rel="stylesheet"
+        href="https://www.decathlon.at/ecat/static/sport-lp-css-v2/products-sliders-css/style.css"
+      />
+  
+      <style>
+        .products-slider1__display-category${sliderId} {
+          background-image: url("${slider1CategoryColumnImageSrc}") !important;
+          background-position: center;
+        }
+  
+        .products-slider1__priceContainer {
+          position: absolute;
+          top: 26px !important;
+          right: 20px;
+      }
+       .products-slider1 .swiper-slide {
+         height: 368px;
+      }
+     
+      .sportLp__section-title {
+         font-weight: bold;
+      }
+  
+      .products-slider1 {
+        padding-bottom: 0 !important;
+      }
+  
+      @media (min-width: 1200px) {
+        .products-slider1__arrow {
+            top: 46% !important;
+        }
+  
+      }
 
-      <div class="products-slider1__arrow products-slider1__arrow--left products-slider1__arrow--left${sliderId}">
-        <i class="fas fa-chevron-circle-left"></i>
+      /* START OVERRIDE TO NEW STYLES ONESHOP DESIGN */
+      .products-slider1__priceContainer {
+      position: static !important;
+      margin-top: -20px;
+    }
+
+    .products-slider1__priceContainer--price {
+      font-weight: 400;
+      background-color: rgb(255, 234, 40);
+      color: rgb(78, 78, 78);
+      padding: 1px 6px;
+      font-family: Roboto,sans-serif;
+      font-size: 14px;
+    }
+
+    .products-slider1__info {
+      position: static !important; 
+      margin-top: 10px;
+      margin-bottom: 24px;
+  }
+
+    .products-slider1__imgContainer {
+      position: static !important;
+      transform: none !important;
+      width: 72%;
+      margin-top: 26px;
+      margin-bottom: 50px;
+    }
+    @media (min-width: 1200px) {
+      .products-slider1__imgContainer {
+        margin-bottom: 30px;
+      }
+    }
+
+    .products-slider1__arrow {
+      position: absolute;
+      top: 40%;
+  }
+  /* END OVERRIDE TO NEW STYLES ONESHOP DESIGN */
+  
+      </style>
+
+      <h2 class="sportLp__section-title">${slider1Title}</h2>
+      <div class="products-slider1">
+      <!--
+        <div class="products-slider1__titleContainer">
+          <h2>${slider1Title}</h2>
+        </div>
+        -->
+        <!-- Swiper -->
+        <div class="swiper-container products-slider1__swiper-container products-slider1__swiper-container${sliderId}">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+            ${
+              slider1Product1DisplayLabelBool === "yes"
+                ? `
+                <div class="products-slider1__labelContainer" style="background-color: ${slider1Product1LabelColor}">
+                  <span>${slider1Product1LabelText}</span>
+                </div>
+                  `
+                : `
+                  <!--
+                  <div class="products-slider1__labelContainer" style="background-color: ${slider1Product1LabelColor}">
+                    <span>${slider1Product1LabelText}</span>
+                  </div>
+                  -->
+                    `
+            }
+  
+
+              <div class="products-slider1__imgContainer">
+                <a href="${slider1Product1LinkUrl}">
+                  <img
+                    alt="${slider1Product1Name}"
+                    src="${slider1Product1ImageSrc}"
+                  />
+                </a>
+              </div>
+
+              <div class="products-slider1__priceContainer">
+              ${
+                slider1Product1DisplayAbPriceBool === "yes"
+                  ? '<span class="products-slider1__priceContainer--ab-price">Ab</span>'
+                  : '<!--<span class="products-slider1__priceContainer--ab-price">Ab</span>-->'
+              }
+                
+                <span class="products-slider1__priceContainer--price"
+                  >€${slider1Product1Price}</span
+                >
+              </div>
+
+              <div class="products-slider1__info">
+                <div class="products-slider1__nameContainer">
+                  <span>${slider1Product1Name}</span>
+                </div>
+                <div class="products-slider1__brandContainer">
+                  <span>${slider1Product1Brand} </span>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+            ${
+              slider1Product2DisplayLabelBool === "yes"
+                ? `
+                <div class="products-slider1__labelContainer" style="background-color: ${slider1Product2LabelColor}">
+                  <span>${slider1Product2LabelText}</span>
+                </div>
+                  `
+                : `
+                  <!--
+                  <div class="products-slider1__labelContainer" style="background-color: ${slider1Product2LabelColor}">
+                    <span>${slider1Product2LabelText}</span>
+                  </div>
+                  -->
+                    `
+            }
+  
+             
+              <div class="products-slider1__imgContainer">
+                <a href="${slider1Product2LinkUrl}">
+                  <img
+                    alt="${slider1Product2Name}"
+                    src="${slider1Product2ImageSrc}"
+                  />
+                </a>
+              </div>
+
+              <div class="products-slider1__priceContainer">
+              ${
+                slider1Product2DisplayAbPriceBool === "yes"
+                  ? '<span class="products-slider1__priceContainer--ab-price">Ab</span>'
+                  : '<!--<span class="products-slider1__priceContainer--ab-price">Ab</span>-->'
+              }
+                <span class="products-slider1__priceContainer--price"
+                  >€${slider1Product2Price}</span
+                >
+              </div>
+
+              <div class="products-slider1__info">
+                <div class="products-slider1__nameContainer">
+                  <span>${slider1Product2Name}</span>
+                </div>
+                <div class="products-slider1__brandContainer">
+                  <span>${slider1Product2Brand}</span>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+            ${
+              slider1Product3DisplayLabelBool === "yes"
+                ? `
+                <div class="products-slider1__labelContainer" style="background-color: ${slider1Product3LabelColor}">
+                  <span>${slider1Product3LabelText}</span>
+                </div>
+                  `
+                : `
+                  <!--
+                  <div class="products-slider1__labelContainer" style="background-color: ${slider1Product3LabelColor}">
+                    <span>${slider1Product3LabelText}</span>
+                  </div>
+                  -->
+                    `
+            }
+  
+             
+              <div class="products-slider1__imgContainer">
+                <a href="${slider1Product3LinkUrl}">
+                  <img
+                    alt="${slider1Product3Name}"
+                    src="${slider1Product3ImageSrc}"
+                  />
+                </a>
+              </div>
+
+              <div class="products-slider1__priceContainer">
+              ${
+                slider1Product3DisplayAbPriceBool === "yes"
+                  ? '<span class="products-slider1__priceContainer--ab-price">Ab</span>'
+                  : '<!--<span class="products-slider1__priceContainer--ab-price">Ab</span>-->'
+              }
+                <span class="products-slider1__priceContainer--price"
+                  >€${slider1Product3Price}</span
+                >
+              </div>
+
+              <div class="products-slider1__info">
+                <div class="products-slider1__nameContainer">
+                  <span>${slider1Product3Name}</span>
+                </div>
+                <div class="products-slider1__brandContainer">
+                  <span>${slider1Product3Brand}</span>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="products-slider1__display-category products-slider1__display-category${sliderId}">
+                <a href="${slider1CategoryColumnBtnLinkUrl}" class="products-slider1__display-category-btn">
+                  <p>
+                    <span> ${slider1CategoryColumnBtnText} </span>
+  
+                    <i class="fas fa-chevron-right"></i>
+                  </p>
+                </a>
+              </div>
+            </div>
+            <div class="swiper-slide">
+            ${
+              slider1Product4DisplayLabelBool === "yes"
+                ? `
+                <div class="products-slider1__labelContainer" style="background-color: ${slider1Product4LabelColor}">
+                  <span>${slider1Product4LabelText}</span>
+                </div>
+                  `
+                : `
+                  <!--
+                  <div class="products-slider1__labelContainer" style="background-color: ${slider1Product4LabelColor}">
+                    <span>${slider1Product4LabelText}</span>
+                  </div>
+                  -->
+                    `
+            }
+  
+              
+              <div class="products-slider1__imgContainer">
+                <a href="${slider1Product4LinkUrl}">
+                  <img
+                    alt="${slider1Product4Name}"
+                    src="${slider1Product4ImageSrc}"
+                  />
+                </a>
+              </div>
+
+              <div class="products-slider1__priceContainer">
+              ${
+                slider1Product4DisplayAbPriceBool === "yes"
+                  ? '<span class="products-slider1__priceContainer--ab-price">Ab</span>'
+                  : '<!--<span class="products-slider1__priceContainer--ab-price">Ab</span>-->'
+              }
+                <span class="products-slider1__priceContainer--price"
+                  >€${slider1Product4Price}</span
+                >
+              </div>
+
+              <div class="products-slider1__info">
+                <div class="products-slider1__nameContainer">
+                  <span>${slider1Product4Name}</span>
+                </div>
+                <div class="products-slider1__brandContainer">
+                  <span> ${slider1Product4Brand} </span>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+            ${
+              slider1Product5DisplayLabelBool === "yes"
+                ? `
+                <div class="products-slider1__labelContainer" style="background-color: ${slider1Product5LabelColor}">
+                  <span>${slider1Product5LabelText}</span>
+                </div>
+                  `
+                : `
+                  <!--
+                  <div class="products-slider1__labelContainer" style="background-color: ${slider1Product5LabelColor}">
+                    <span>${slider1Product5LabelText}</span>
+                  </div>
+                  -->
+                    `
+            }
+  
+             
+              <div class="products-slider1__imgContainer">
+                <a href="${slider1Product5LinkUrl}">
+                  <img
+                    alt="${slider1Product5Name}"
+                    src="${slider1Product5ImageSrc}"
+                  />
+                </a>
+              </div>
+
+              <div class="products-slider1__priceContainer">
+              ${
+                slider1Product5DisplayAbPriceBool === "yes"
+                  ? '<span class="products-slider1__priceContainer--ab-price">Ab</span>'
+                  : '<!--<span class="products-slider1__priceContainer--ab-price">Ab</span>-->'
+              }
+                <span class="products-slider1__priceContainer--price"
+                  >€${slider1Product5Price}</span
+                >
+              </div>
+
+              <div class="products-slider1__info">
+                <div class="products-slider1__nameContainer">
+                  <span>${slider1Product5Name}</span>
+                </div>
+                <div class="products-slider1__brandContainer">
+                  <span>${slider1Product5Brand}</span>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+            ${
+              slider1Product6DisplayLabelBool === "yes"
+                ? `
+                <div class="products-slider1__labelContainer" style="background-color: ${slider1Product6LabelColor}">
+                  <span>${slider1Product6LabelText}</span>
+                </div>
+                  `
+                : `
+                  <!--
+                  <div class="products-slider1__labelContainer" style="background-color: ${slider1Product6LabelColor}">
+                    <span>${slider1Product6LabelText}</span>
+                  </div>
+                  -->
+                    `
+            }
+  
+            
+              <div class="products-slider1__imgContainer">
+                <a href="${slider1Product6LinkUrl}">
+                  <img
+                    alt="${slider1Product6Name}"
+                    src="${slider1Product6ImageSrc}"
+                  />
+                </a>
+              </div>
+
+              <div class="products-slider1__priceContainer">
+              ${
+                slider1Product6DisplayAbPriceBool === "yes"
+                  ? '<span class="products-slider1__priceContainer--ab-price">Ab</span>'
+                  : '<!--<span class="products-slider1__priceContainer--ab-price">Ab</span>-->'
+              }
+                <span class="products-slider1__priceContainer--price"
+                  >€${slider1Product6Price}</span
+                >
+              </div>
+              
+              <div class="products-slider1__info">
+                <div class="products-slider1__nameContainer">
+                  <span>${slider1Product6Name}</span>
+                </div>
+                <div class="products-slider1__brandContainer">
+                  <span>${slider1Product6Brand} </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="products-slider1__arrow products-slider1__arrow--left products-slider1__arrow--left${sliderId}">
+          <i class="fas fa-chevron-circle-left"></i>
+        </div>
+        <div class="products-slider1__arrow products-slider1__arrow--right products-slider1__arrow--right${sliderId}">
+          <i class="fas fa-chevron-circle-right"></i>
+        </div>
+  
+        <!-- Add Arrows -->
+  
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
       </div>
-      <div class="products-slider1__arrow products-slider1__arrow--right products-slider1__arrow--right${sliderId}">
-        <i class="fas fa-chevron-circle-right"></i>
-      </div>
-
-      <!-- Add Arrows -->
-
-      <!-- Add Pagination -->
-      <div class="swiper-pagination"></div>
-    </div>
-    <!-- end .products-slider1 -->
-
-    <!-- Swiper JS -->
-    <script src="../package/swiper-bundle.min.js"></script>
-
-    <!-- Initialize Swiper -->
-    <script>
-      var swiper${sliderId} = new Swiper(".products-slider1__swiper-container${sliderId}", {
-        navigation: {
-          nextEl: ".products-slider1__arrow--right${sliderId}",
-          prevEl: ".products-slider1__arrow--left${sliderId}",
-        },
-
-        breakpoints: {
-          200: {
-            slidesPerView: 1,
-            spaceBetweenSlides: 30,
+      <!-- end .products-slider1 -->
+  
+      <!-- Swiper JS -->
+      <script src="../package/swiper-bundle.min.js"></script>
+  
+      <!-- Initialize Swiper -->
+      <script>
+        var swiper${sliderId} = new Swiper(".products-slider1__swiper-container${sliderId}", {
+          navigation: {
+            nextEl: ".products-slider1__arrow--right${sliderId}",
+            prevEl: ".products-slider1__arrow--left${sliderId}",
           },
-
-          760: {
-            slidesPerView: 2,
-            spaceBetween: 40,
+  
+          breakpoints: {
+            200: {
+              slidesPerView: 1,
+              spaceBetweenSlides: 30,
+            },
+  
+            760: {
+              slidesPerView: 2,
+              spaceBetween: 40,
+            },
+            1100: {
+              slidesPerView: 4,
+              spaceBetween: 2,
+            },
           },
-          1100: {
-            slidesPerView: 4,
-            spaceBetween: 2,
-          },
-        },
-        loop: true,
-      });
-    </script>
-    <div style="margin: 12px 0">&nbsp;</div>
-    <!-- ***************** END DISPLAY PRODUCTS SLIDER1 ***************** -->
-    `);
+          loop: true,
+        });
+      </script>
+      <div style="margin: 12px 0">&nbsp;</div>
+      <!-- ***************** END DISPLAY PRODUCTS SLIDER1 ***************** -->
+      `);
+    }
   };
 
   // copy to clip func
@@ -826,6 +1245,35 @@ export default function PopupProductsSlider1(props) {
             <h2 id="transition-modal-title">{props.title}</h2>
             <p id="transition-modal-description">{props.text}</p>
             <div className="popupInputsContainer">
+              <div className="popupInputsContainer__sectionWrapper">
+                <p className="popupInputsContainer__titleOfInputsGroup">
+                  Please choose between Sparkow and OneShop slider design
+                </p>
+                <div className="popupInputsContainer__wrapper">
+                  <FormControl component="fieldset">
+                    <FormLabel component="legend"></FormLabel>
+
+                    <RadioGroup
+                      aria-label="slider_design_type"
+                      name="slider_design_type"
+                      value={sliderDesignType}
+                      onChange={handleOnChangeSliderDesignType}
+                    >
+                      <FormControlLabel
+                        value="sparkow"
+                        control={<Radio />}
+                        label="sparkow"
+                      />
+                      <FormControlLabel
+                        value="oneshop"
+                        control={<Radio />}
+                        label="oneshop"
+                      />
+                    </RadioGroup>
+                  </FormControl>
+                </div>
+              </div>
+
               <div className="popupInputsContainer__sectionWrapper">
                 <p className="popupInputsContainer__titleOfInputsGroup">
                   Slider Id Number:
