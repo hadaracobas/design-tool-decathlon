@@ -95,6 +95,10 @@ export default function PopupBanner1(props) {
         background-image: url("${banner1ImgUrl}") !important;
         background-position: center;
       }
+      .banner1 {
+        min-height: 200px !important;
+       }
+       
     </style>
     <div class="banner1">
       <div class="banner1__left-side">
