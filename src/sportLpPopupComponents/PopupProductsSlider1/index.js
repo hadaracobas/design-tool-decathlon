@@ -817,6 +817,23 @@ export default function PopupProductsSlider1(props) {
   
       }
 
+      @media(min-width: 1800px) {
+        .products-slider1 .swiper-container {
+           width: 74% !important;  
+        }
+
+        .products-slider1__imgContainer {
+          width: 80%;
+        }
+
+        .products-slider1__arrow--right {
+          right: 9%;
+       }
+       .products-slider1__arrow--left {
+         left: 9%;
+       }
+     }
+
       /* START OVERRIDE TO NEW STYLES ONESHOP DESIGN */
       .products-slider1__priceContainer {
       position: static !important;
