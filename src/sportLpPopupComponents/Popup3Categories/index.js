@@ -122,7 +122,7 @@ export default function Popup3Categories(props) {
     <!-- ***************** START DISPLAY 3 CATEGORIES ***************** -->
     <link
       rel="stylesheet"
-      href="https://www.decathlon.at/ecat/static/sport-lp-css-v2/categories-css/style.css"
+      href="https://decathlon-source.eu/frontend/sport-pages/code-files/components/categories.css"
     />
     <style>
       .three-categories .first-category${categorySectionIdNumber} {
@@ -145,9 +145,6 @@ export default function Popup3Categories(props) {
         background-position: center !important;
       }
 
-      .sportLp__section-title {
-        font-weight: bold;
-       }
     </style>
     <h2 class="sportLp__section-title">${sectionTitleInput}</h2>
     <div class="three-categories">

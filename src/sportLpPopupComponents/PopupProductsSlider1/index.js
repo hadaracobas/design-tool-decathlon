@@ -406,7 +406,7 @@ export default function PopupProductsSlider1(props) {
   
       <link
         rel="stylesheet"
-        href="https://www.decathlon.at/ecat/static/sport-lp-css-v2/products-sliders-css/style.css"
+        href="https://decathlon-source.eu/frontend/sport-pages/code-files/components/product-slider1.css"
       />
   
       <style>
@@ -784,7 +784,7 @@ export default function PopupProductsSlider1(props) {
   
       <link
         rel="stylesheet"
-        href="https://www.decathlon.at/ecat/static/sport-lp-css-v2/products-sliders-css/style.css"
+        href="https://decathlon-source.eu/frontend/sport-pages/code-files/components/product-slider1.css"
       />
   
       <style>

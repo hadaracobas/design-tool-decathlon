@@ -781,7 +781,7 @@ export default function PopupOneshopSportpage(props) {
     
     <link
     rel="stylesheet"
-    href="https://www.decathlon.at/ecat/static/sport-lp-css-v2/oneshop-sport-page-css/style-v2.css"
+    href="https://decathlon-source.eu/frontend/sport-pages/code-files/components/oneshop-sport-page-v1.css"
     />
     
     <style>

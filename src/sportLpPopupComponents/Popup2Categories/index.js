@@ -110,7 +110,7 @@ export default function Popup2Categories(props) {
 
     <link
     rel="stylesheet"
-    href="https://www.decathlon.at/ecat/static/sport-lp-css-v2/categories-css/style.css"
+    href="https://decathlon-source.eu/frontend/sport-pages/code-files/components/categories.css"
   />
   
   <style>
@@ -127,9 +127,6 @@ export default function Popup2Categories(props) {
       background-size: cover !important;
     }
 
-    .sportLp__section-title {
-      font-weight: bold;
-    }
   </style>
   <h2 class="sportLp__section-title">${sectionTitleInput}</h2>
   <div class="two-categories">

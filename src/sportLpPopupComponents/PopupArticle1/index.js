@@ -93,20 +93,13 @@ export default function PopupArticle1(props) {
     
     <link
       rel="stylesheet"
-      href="https://www.decathlon.at/ecat/static/sport-lp-css-v2/articles-css/style.css"
+      href="https://decathlon-source.eu/frontend/sport-pages/code-files/components/articles.css"
     />
     <style>
       .article1 .article1__imgContainer${categorySectionIdNumber} {
         background-image: url("${article1ImgUrl}") !important;
         background-position: center;
       }
-      .article1 .article1__content--categoryName {
-        padding: 8px 32px;
-    }
-
-    .article1__content--title {
-      border-top: none !important;
-    }
 
     </style>
     <div class="article1">

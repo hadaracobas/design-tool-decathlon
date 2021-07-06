@@ -88,17 +88,13 @@ export default function PopupBanner1(props) {
     <div style="margin: 15px 0">&nbsp;</div>
     <link
       rel="stylesheet"
-      href="https://www.decathlon.at/ecat/static/sport-lp-css-v1/banners-css/style.css"
+      href="https://decathlon-source.eu/frontend/sport-pages/code-files/components/banners.css"
     />
     <style>
       .banner1 .banner1__right-side${categorySectionIdNumber} {
         background-image: url("${banner1ImgUrl}") !important;
         background-position: center;
       }
-      .banner1 {
-        min-height: 200px !important;
-       }
-       
     </style>
     <div class="banner1">
       <div class="banner1__left-side">

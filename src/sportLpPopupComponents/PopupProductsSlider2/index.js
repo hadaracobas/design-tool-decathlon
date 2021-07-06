@@ -197,26 +197,10 @@ export default function PopupProductsSlider2(props) {
     
     <link
       rel="stylesheet"
-      href="https://www.decathlon.at/ecat/static/sport-lp-css-v2/products-sliders-css/products-slider2.css"
+      href="https://decathlon-source.eu/frontend/sport-pages/code-files/components/product-slider2.css"
     />
 
-    <style>
-  .products-slider2 .swiper-container {
-    position: relative;
-  }
 
-  .products-slider2__item {
-    width: 168px;
-    text-align: left;
-    margin: 0 auto;
-  }
-
-  @media (min-width: 900px) {
-    .products-slider2__item {
-      width: 100%;
-    }
-  }
-   </style>
     
      
         <div class="products-slider2">

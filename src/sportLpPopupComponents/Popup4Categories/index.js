@@ -135,7 +135,7 @@ export default function Popup4Categories(props) {
     <!-- ***************** START DISPLAY 4 CATEGORIES ***************** -->
     <link
       rel="stylesheet"
-      href="https://www.decathlon.at/ecat/static/sport-lp-css-v2/categories-css/style.css"
+      href="https://decathlon-source.eu/frontend/sport-pages/code-files/components/categories.css"
     />
     <style>
       .four-categories .first-category${categorySectionIdNumber} {
@@ -166,12 +166,6 @@ export default function Popup4Categories(props) {
         background-size: cover !important;
       }
 
-      .four-categories .category-content {
-        max-width: 100%;
-      }
-      .sportLp__section-title {
-        font-weight: bold;
-    }
     </style>
     <h2 class="sportLp__section-title">${sectionTitleInput}</h2>
     <div class="four-categories">
