@@ -11,6 +11,7 @@ import screenshotProductsSlider1 from "../../img/products-slider1-screenshot.png
 import screenshotProductsSlider2 from "../../img/products-slider2-screenshot.png";
 import screenshotOneshopSportpage from "../../img/oneshop-sportpage-screenshot.png";
 import screenshotTrboLoading from "../../img/trbo-loading.png";
+import screenshotVideo from "../../img/video-section.png";
 
 import "./index.css";
 import PopupModalUseComponent from "../PopupModalUseComponent";
@@ -23,6 +24,7 @@ import PopupProductsSlider1 from "../../sportLpPopupComponents/PopupProductsSlid
 import PopupProductsSlider2 from "../../sportLpPopupComponents/PopupProductsSlider2";
 import PopupOneshopSportpage from "../../sportLpPopupComponents/PopupOneshopSportpage";
 import PopupTrboSliderContainer from "../../sportLpPopupComponents/PopupTrboSliderContainer";
+import PopupVideo from "../../sportLpPopupComponents/PopupVideo";
 
 const SportLP = () => {
   const [open2CategoriesComponent, setOpen2CategoriesComponent] = useState(
@@ -59,6 +61,11 @@ const SportLP = () => {
   const [
     openTrboLoadingContainerComponent,
     setOpenTrboLoadingContainerComponent,
+  ] = useState(false);
+
+  const [
+    openVideoComponent,
+    setOpenVideoComponent,
   ] = useState(false);
 
   return (
@@ -136,6 +143,18 @@ const SportLP = () => {
         </div>
       </div>
 
+
+
+      <div className="cards">
+        <div className="card">
+          <ImgMediaCard
+            imageUrl={screenshotVideo}
+            componentTitle="video"
+            onClick={() => setOpenVideoComponent(true)}
+          />
+        </div>
+      </div>
+
       {/*
        <PopupModalUseComponent
         imgUrl={screenshotTwoCategories}
@@ -192,6 +211,12 @@ const SportLP = () => {
         imgUrl={screenshotTrboLoading}
         open={openTrboLoadingContainerComponent}
         handleClose={() => setOpenTrboLoadingContainerComponent(false)}
+      />
+
+      <PopupVideo 
+         imgUrl={screenshotVideo}
+         open={openVideoComponent}
+         handleClose={() => setOpenVideoComponent(false)}
       />
     </div>
   );
