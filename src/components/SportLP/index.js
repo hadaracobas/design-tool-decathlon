@@ -163,7 +163,7 @@ const SportLP = () => {
         <div className="card">
           <ImgMediaCard
             imageUrl={codeImage}
-            componentTitle="oneshop sport page code convertor v1 --> v2"
+            componentTitle="oneshop sport page code converter v1 to v2"
             onClick={() => setOpenSportPageCodeConvertorV1ToV2(true)}
           />
         </div>
