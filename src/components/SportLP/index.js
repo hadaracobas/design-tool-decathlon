@@ -12,6 +12,7 @@ import screenshotProductsSlider2 from "../../img/products-slider2-screenshot.png
 import screenshotOneshopSportpage from "../../img/oneshop-sportpage-screenshot.png";
 import screenshotTrboLoading from "../../img/trbo-loading.png";
 import screenshotVideo from "../../img/video-section.png";
+import codeImage from "../../img/sport-page-code-convertor.jpg";
 
 import "./index.css";
 import PopupModalUseComponent from "../PopupModalUseComponent";
@@ -25,6 +26,7 @@ import PopupProductsSlider2 from "../../sportLpPopupComponents/PopupProductsSlid
 import PopupOneshopSportpage from "../../sportLpPopupComponents/PopupOneshopSportpage";
 import PopupTrboSliderContainer from "../../sportLpPopupComponents/PopupTrboSliderContainer";
 import PopupVideo from "../../sportLpPopupComponents/PopupVideo";
+import PopupCodeConvertorSp from "../../sportLpPopupComponents/PopupCodeConvertorSp";
 
 const SportLP = () => {
   const [open2CategoriesComponent, setOpen2CategoriesComponent] = useState(
@@ -66,6 +68,11 @@ const SportLP = () => {
   const [
     openVideoComponent,
     setOpenVideoComponent,
+  ] = useState(false);
+
+  const [
+    openSportPageCodeConvertorV1ToV2,
+    setOpenSportPageCodeConvertorV1ToV2,
   ] = useState(false);
 
   return (
@@ -153,6 +160,13 @@ const SportLP = () => {
             onClick={() => setOpenVideoComponent(true)}
           />
         </div>
+        <div className="card">
+          <ImgMediaCard
+            imageUrl={codeImage}
+            componentTitle="oneshop sport page code convertor v1 --> v2"
+            onClick={() => setOpenSportPageCodeConvertorV1ToV2(true)}
+          />
+        </div>
       </div>
 
       {/*
@@ -218,6 +232,12 @@ const SportLP = () => {
          open={openVideoComponent}
          handleClose={() => setOpenVideoComponent(false)}
       />
+
+       <PopupCodeConvertorSp 
+         imgUrl={codeImage}
+         open={openSportPageCodeConvertorV1ToV2}
+         handleClose={() => setOpenSportPageCodeConvertorV1ToV2(false)}
+        />
     </div>
   );
 };
