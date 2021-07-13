@@ -116,7 +116,12 @@ setHeaderTextParagraph(headerParagraphOfPage);
 const headerImgDiv = catchCodeInTheDiv.getElementsByClassName('sportpage-header__right--img')[0];
 const headerImgUrlAllValue = headerImgDiv && getComputedStyle(headerImgDiv).backgroundImage;
 const headerImgUrl = headerImgUrlAllValue && headerImgUrlAllValue.slice(5, headerImgUrlAllValue.length - 2);
-setHeaderImageUrl(headerImgUrl);
+if(headerImgUrl.includes('https://stoic-bassi-94aeb7.netlify.app')) {
+  setHeaderImageUrl(headerImgUrl.slice(38, headerImgUrl.length));
+} else {
+  setHeaderImageUrl(headerImgUrl);
+}
+
 
 // get components 
 const sportpageComponents = catchCodeInTheDiv.getElementsByClassName('sportpage-box');
