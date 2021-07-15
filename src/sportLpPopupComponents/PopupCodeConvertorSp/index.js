@@ -361,7 +361,7 @@ ${pageWithOrWithoutMenu === "without-menu" ? (
       ${el}
     </div>
     `
-  ))}
+  )).join('')}
 
     <!--
     <div class="sportpage__content--box"></div>
